@@ -22,7 +22,8 @@
             "transport_type": null,
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Заселение в отель к 15:00",
@@ -33,7 +34,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Nakasu Yatai",
@@ -44,7 +46,8 @@
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "montan HAKATA",
@@ -55,7 +58,8 @@
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -71,7 +75,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Ohori park",
@@ -82,7 +87,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Художественный музей Фукуоки",
@@ -93,7 +99,8 @@
             "transport_type": "Пешком",
             "hours": "09:30-17:30",
             "ticket": 200.0,
-            "site": "Hours and Admission | Fukuoka Art Museum"
+            "site": "https://www.fukuoka-art-museum.jp/en/guide/",
+            "site_label": "Hours and Admission | Fukuoka Art Museum"
           },
           {
             "name": "montan HAKATA",
@@ -104,7 +111,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -114,24 +122,26 @@
           {
             "name": "Futamigaura Torii",
             "time": null,
-            "map": "откуда: montan HAKATA Hostel; куда: Sakurai Shrine Futamigaura Torii – Google Карты",
+            "map": "https://www.google.com/maps/dir/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Sakurai+Shrine+Futamigaura+Torii,+%E6%A1%9C%E4%BA%95+%D0%98%D1%82%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.5945215,130.2162256,12z/am=t/data=!4m18!4m17!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!1m5!1m1!1s0x3541e959e6863519:0xacd02e39b3255a27!2m2!1d130.1969992!2d33.6395325!2m3!6e0!7e2!8j1742283000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 1150.0,
             "transport_time": "1 ч 30 мин",
             "transport_type": "Метро/Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "montan HAKATA",
             "time": null,
-            "map": "откуда: Sakurai Shrine Futamigaura Torii; куда: montan HAKATA Hostel – Google Карты",
+            "map": "https://www.google.com/maps/dir/Sakurai+Shrine+Futamigaura+Torii,+%E6%A1%9C%E4%BA%95+%D0%98%D1%82%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.6095596,130.225464,12z/am=t/data=!4m18!4m17!1m5!1m1!1s0x3541e959e6863519:0xacd02e39b3255a27!2m2!1d130.1969992!2d33.6395325!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!2m3!6e0!7e2!8j1742296500!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 1260.0,
             "transport_time": "1 ч 35 мин",
             "transport_type": "Автобу/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -141,35 +151,38 @@
           {
             "name": "Fukuoka City Museum",
             "time": null,
-            "map": "откуда: montan HAKATA Hostel; куда: Fukuoka City Museum – Google Карты",
+            "map": "https://www.google.com/maps/dir/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Fukuoka+City+Museum,+3+%D0%A2%D1%91%D0%BC%D0%B5-1+%D0%9C%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D1%85%D0%B0%D0%BC%D0%B0,+Sawara+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.5931506,130.3509863,13z/am=t/data=!4m19!4m18!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!1m5!1m1!1s0x354193a91da0c507:0xa9dfcb1cb2a623e5!2m2!1d130.353064!2d33.589786!2m3!6e0!7e2!8j1742373900!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 300.0,
             "transport_time": "45 мин",
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Башня Фукуока",
             "time": "Без времени",
-            "map": "откуда: Fukuoka City Museum; куда: Башня Фукуока – Google Карты",
+            "map": "https://www.google.com/maps/dir/Fukuoka+City+Museum,+3+%D0%A2%D1%91%D0%BC%D0%B5-1+%D0%9C%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D1%85%D0%B0%D0%BC%D0%B0,+Sawara+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%91%D0%B0%D1%88%D0%BD%D1%8F+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+2+%D0%A2%D1%91%D0%BC%D0%B5-3+%D0%9C%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D1%85%D0%B0%D0%BC%D0%B0,+Sawara+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.5910896,130.3497535,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x354193a91da0c507:0xa9dfcb1cb2a623e5!2m2!1d130.353064!2d33.589786!1m5!1m1!1s0x354193aa23040001:0xf9743b36617a912d!2m2!1d130.35151!2d33.5932846!2m3!6e0!7e2!8j1742382000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": "09:30-22:00",
             "ticket": 800.0,
-            "site": "Fees / Opening times | Fukuoka Tower FUKUOKA TOWER"
+            "site": "https://www.fukuokatower.co.jp/charge/",
+            "site_label": "Fees / Opening times | Fukuoka Tower FUKUOKA TOWER"
           },
           {
             "name": "montan HAKATA",
             "time": null,
-            "map": "откуда: Башня Фукуока; куда: montan HAKATA Hostel – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%91%D0%B0%D1%88%D0%BD%D1%8F+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+2+%D0%A2%D1%91%D0%BC%D0%B5-3+%D0%9C%D0%BE%D0%BC%D0%BE%D1%82%D0%B8%D1%85%D0%B0%D0%BC%D0%B0,+Sawara+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.5898428,130.3484279,13z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x354193aa23040001:0xf9743b36617a912d!2m2!1d130.35151!2d33.5932846!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!2m3!6e0!7e2!8j1742385600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 510.0,
             "transport_time": "45 мин",
             "transport_type": "Автобу/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -179,35 +192,38 @@
           {
             "name": "Nanzoin Temple",
             "time": null,
-            "map": "откуда: montan HAKATA Hostel; куда: Nanzoin Temple – Google Карты",
+            "map": "https://www.google.com/maps/dir/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Nanzoin+Temple,+%D0%A1%D0%B0%D1%81%D0%B0%D0%B3%D1%83%D1%80%D0%B8,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.6062786,130.4145524,12z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!1m5!1m1!1s0x354183e08e323ff7:0xd7ec1fd970119d7d!2m2!1d130.5729783!2d33.619838!2m3!6e0!7e2!8j1742455800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 380.0,
             "transport_time": "40 мин",
             "transport_type": "Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "LaLaport Fukuoka",
             "time": null,
-            "map": "откуда: Nanzoin Temple; куда: LaLaport Fukuoka – Google Карты",
+            "map": "https://www.google.com/maps/dir/Nanzoin+Temple,+%D0%A1%D0%B0%D1%81%D0%B0%D0%B3%D1%83%D1%80%D0%B8,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/LaLaport+Fukuoka,+6+%D0%A2%D1%91%D0%BC%D0%B5-23+%D0%9D%D0%B0%D0%BA%D0%B0,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.5937212,130.4134408,12z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m19!4m18!1m5!1m1!1s0x354183e08e323ff7:0xd7ec1fd970119d7d!2m2!1d130.5729783!2d33.619838!1m5!1m1!1s0x354191e79a67d911:0xe57737261ee4d100!2m2!1d130.4412689!2d33.5651945!2m3!6e0!7e2!8j1742464800!3e3!5i2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 380.0,
             "transport_time": "55 мин",
             "transport_type": "Поезд/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "montan HAKATA",
             "time": null,
-            "map": "откуда: LaLaport Fukuoka; куда: montan HAKATA Hostel – Google Карты",
+            "map": "https://www.google.com/maps/dir/LaLaport+Fukuoka,+6+%D0%A2%D1%91%D0%BC%D0%B5-23+%D0%9D%D0%B0%D0%BA%D0%B0,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.5770055,130.4228107,15z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x354191e79a67d911:0xe57737261ee4d100!2m2!1d130.4412689!2d33.5651945!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!2m3!6e0!7e2!8j1742473800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 380.0,
             "transport_time": "20 мин",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -217,35 +233,38 @@
           {
             "name": "Yanagawa Canals",
             "time": null,
-            "map": "откуда: montan HAKATA Hostel; куда: Yanagawa Canals – Google Карты",
+            "map": "https://www.google.com/maps/dir/montan+HAKATA+Hostel,+%E3%82%B5%E3%83%B3%E3%83%8F%E3%82%A4%E3%83%A0%EF%BC%92%EF%BC%91%E5%8D%9A%E5%A4%9A+3+%D0%A2%D1%91%D0%BC%D0%B5-6+%D0%A5%D0%B0%D0%BA%D0%B0%D1%82%D0%B0%D1%8D%D0%BA%D0%B8%D1%85%D0%B8%D0%B3%D0%B0%D1%81%D0%B8,+Hakata+Ward,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Yanagawa+Canals,+%D0%9C%D0%B8%D1%86%D1%83%D1%85%D0%B0%D1%81%D0%B8%D0%BC%D0%B0%D1%82%D0%B8+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%91%D1%81%D0%B8,+%D0%AF%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.3800714,130.1020015,10z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x354191cbb2f3ce09:0x278237022711eace!2m2!1d130.427977!2d33.588725!1m5!1m1!1s0x3541b35dba52e4ab:0x78cc369a11f3991c!2m2!1d130.4138819!2d33.1642726!2m3!6e0!7e2!8j1742542200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 1080.0,
             "transport_time": "1 ч 25 мин",
             "transport_type": "Метро/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Suigo Yanagawa Kanko",
             "time": null,
-            "map": "откуда: Yanagawa Canals; куда: Suigo Yanagawa Kanko – Google Карты",
+            "map": "https://www.google.com/maps/dir/Yanagawa+Canals,+%D0%9C%D0%B8%D1%86%D1%83%D1%85%D0%B0%D1%81%D0%B8%D0%BC%D0%B0%D1%82%D0%B8+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%91%D1%81%D0%B8,+%D0%AF%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Suigo+Yanagawa+Kanko,+%D0%9C%D0%B8%D1%86%D1%83%D1%85%D0%B0%D1%81%D0%B8%D0%BC%D0%B0%D1%82%D0%B8+%D0%A1%D0%B8%D0%BC%D0%BE%D1%85%D1%8F%D0%BA%D1%83%D1%82%D1%91,+%D0%AF%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.1656258,130.414059,18z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x3541b35dba52e4ab:0x78cc369a11f3991c!2m2!1d130.4138819!2d33.1642726!1m5!1m1!1s0x3541b330c69b28b9:0xcb1a67388f418cab!2m2!1d130.416811!2d33.166724!2m3!6e0!7e2!8j1742553000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Sejour Inn Capsule",
             "time": null,
-            "map": "откуда: Suigo Yanagawa Kanko; куда: Sejour Inn Capsule – Google Карты",
+            "map": "https://www.google.com/maps/dir/Suigo+Yanagawa+Kanko,+%D0%9C%D0%B8%D1%86%D1%83%D1%85%D0%B0%D1%81%D0%B8%D0%BC%D0%B0%D1%82%D0%B8+%D0%A1%D0%B8%D0%BC%D0%BE%D1%85%D1%8F%D0%BA%D1%83%D1%82%D1%91,+%D0%AF%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%BA%D1%83%D0%BE%D0%BA%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Sejour+Inn+Capsule,+%E3%83%95%E3%82%B8%E3%82%BF%E3%83%93%E3%83%AB%E3%83%89+10+%D0%9A%D0%B0%D0%B2%D0%B0%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@33.7858608,130.7793025,9z/am=t/data=!3m2!4b1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x3541b330c69b28b9:0xcb1a67388f418cab!2m2!1d130.416811!2d33.166724!1m5!1m1!1s0x355aa26902648ae1:0xe55d1c9032137ce6!2m2!1d132.4455052!2d34.3896647!2m3!6e0!7e2!8j1742562000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 11150.0,
             "transport_time": "3 ч 25 мин",
             "transport_type": "Поезд/Метро/Шинкансен/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -261,62 +280,68 @@
             "transport_type": "Метро/Паром",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Miyajima Ropeway",
             "time": null,
-            "map": "откуда: Святилище Ицукусима; куда: Miyajima Ropeway – Google Карты",
+            "map": "https://www.google.com/maps/dir/Itsukushima+Shrine,+1-1+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Miyajima+Ropeway,+%E7%B4%85%E8%91%89%E8%B0%B7%E5%85%AC%E5%9C%92+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.2950532,132.3206676,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x601ae3047ec76d8f:0x357228f7d0b5d590!2m2!1d132.3198285!2d34.2959896!1m5!1m1!1s0x355ab0c4f697c57b:0x175eff54986b8bed!2m2!1d132.3267509!2d34.2932587!2m3!6e0!7e2!8j1742648400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Daisho-in Temple",
             "time": null,
-            "map": "откуда: Miyajima Ropeway; куда: Daishoin – Google Карты",
+            "map": "https://www.google.com/maps/dir/Miyajima+Ropeway,+%E7%B4%85%E8%91%89%E8%B0%B7%E5%85%AC%E5%9C%92+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Daishoin,+210+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.2935203,132.3200472,17z/am=t/data=!3m2!4b1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355ab0c4f697c57b:0x175eff54986b8bed!2m2!1d132.3267509!2d34.2932587!1m5!1m1!1s0x355ab0cbbbdfc909:0xba3e1966c707fc3f!2m2!1d132.3184934!2d34.2920462!2m3!6e0!7e2!8j1742648400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Henjo Cave",
             "time": null,
-            "map": "откуда: Daishoin; куда: Henjo Cave – Google Карты",
+            "map": "https://www.google.com/maps/dir/Daishoin,+210+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Henjo+Cave,+%D0%A2%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%D1%82%D0%B8+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.2920519,132.316286,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355ab0cbbbdfc909:0xba3e1966c707fc3f!2m2!1d132.3184934!2d34.2920462!1m5!1m1!1s0x355ab156ae2c67e7:0x4128690ef492890d!2m2!1d132.3185957!2d34.2912206!2m3!6e0!7e2!8j1742648400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Miyajima Omotesando Shopping Street",
             "time": null,
-            "map": "откуда: Henjo Cave; куда: Miyajima Omotesandō Shopping Street – Google Карты",
+            "map": "https://www.google.com/maps/dir/Henjo+Cave,+%D0%A2%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%D1%82%D0%B8+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Miyajima+Omotesand%C5%8D+Shopping+Street,+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.2950982,132.3150658,16z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355ab156ae2c67e7:0x4128690ef492890d!2m2!1d132.3185957!2d34.2912206!1m5!1m1!1s0x355ab0b13ccd38d7:0xbc9022cfd4680083!2m2!1d132.3218356!2d34.2989747!2m3!6e0!7e2!8j1742648400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Sejour Inn Capsule",
             "time": null,
-            "map": "откуда: Miyajima Omotesandō Shopping Street; куда: Sejour Inn Capsule – Google Карты",
+            "map": "https://www.google.com/maps/dir/Miyajima+Omotesand%C5%8D+Shopping+Street,+%D0%9C%D0%B8%D1%8F%D0%B4%D0%B7%D0%B8%D0%BC%D0%B0%D1%82%D1%91,+%D0%A5%D0%B0%D1%86%D1%83%D0%BA%D0%B0%D0%B8%D1%82%D0%B8,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Sejour+Inn+Capsule,+%E3%83%95%E3%82%B8%E3%82%BF%E3%83%93%E3%83%AB%E3%83%89+10+%D0%9A%D0%B0%D0%B2%D0%B0%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.3546318,132.3071163,12z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m19!4m18!1m5!1m1!1s0x355ab0b13ccd38d7:0xbc9022cfd4680083!2m2!1d132.3218356!2d34.2989747!1m5!1m1!1s0x355aa26902648ae1:0xe55d1c9032137ce6!2m2!1d132.4455052!2d34.3896647!2m3!6e0!7e2!8j1742666400!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 750.0,
             "transport_time": "1 ч 20 мин",
             "transport_type": "Паром/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -326,46 +351,50 @@
           {
             "name": "Shukkeien garden",
             "time": null,
-            "map": "откуда: Sejour Inn Capsule; куда: Сюккэйэн – Google Карты",
+            "map": "https://www.google.com/maps/dir/Sejour+Inn+Capsule,+%E3%83%95%E3%82%B8%E3%82%BF%E3%83%93%E3%83%AB%E3%83%89+10+%D0%9A%D0%B0%D0%B2%D0%B0%D1%80%D0%B0%D0%BC%D0%B0%D1%82%D0%B8,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Shukkeien+Garden,+2-11+Kaminoborich%C5%8D,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.3932985,132.4456499,15z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355aa26902648ae1:0xe55d1c9032137ce6!2m2!1d132.4455052!2d34.3896647!1m5!1m1!1s0x355a98a95866f001:0xd78420964a5d61e3!2m2!1d132.4677207!2d34.4004834!2m3!6e0!7e2!8j1742716800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 220.0,
             "transport_time": "30 мин",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Hiroshima castle",
             "time": "Покупка на месте",
-            "map": "откуда: Сюккэйэн; куда: Замок карпа – Google Карты",
+            "map": "https://www.google.com/maps/dir/Shukkeien+Garden,+2-11+Kaminoborich%C5%8D,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Hiroshima+Castle,+21-1+Motomachi,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.4010632,132.4608382,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355a98a95866f001:0xd78420964a5d61e3!2m2!1d132.4677207!2d34.4004834!1m5!1m1!1s0x355a98a6eaf7e7c3:0xf57be92cb5339632!2m2!1d132.4590564!2d34.4026074!2m3!6e0!7e2!8j1742716800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": "09:30-17:30",
             "ticket": 320.0,
-            "site": "Hiroshima Castle User Guide | Hiroshima Castle"
+            "site": "https://www-rijo--castle-jp.translate.goog/information?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=wapp",
+            "site_label": "Hiroshima Castle User Guide | Hiroshima Castle"
           },
           {
             "name": "Peace park",
             "time": null,
-            "map": "откуда: Замок карпа; куда: Мемориальный парк мира в Хиросиме – Google Карты",
+            "map": "https://www.google.com/maps/dir/Hiroshima+Castle,+21-1+Motomachi,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Peace+Memorial+Park+-+Hiroshima,+1+Nakajimach%C5%8D,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.397716,132.4517338,16z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355a98a6eaf7e7c3:0xf57be92cb5339632!2m2!1d132.4590564!2d34.4026074!1m5!1m1!1s0x355aa26d54333083:0xe129ced5b9751665!2m2!1d132.4522012!2d34.3926867!2m3!6e0!7e2!8j1742733000!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Green Rich Hotel Kurashiki Ekimae",
             "time": null,
-            "map": "откуда: Мемориальный парк мира в Хиросиме; куда: Green Rich Hotel Kurashiki Ekimae – Google Карты",
+            "map": "https://www.google.com/maps/dir/Peace+Memorial+Park+-+Hiroshima,+1+Nakajimach%C5%8D,+%D0%A0%D0%B0%D0%B9%D0%BE%D0%BD+%D0%9D%D0%B0%D0%BA%D0%B0,+%D0%A5%D0%B8%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Green+Rich+Hotel+Kurashiki+Ekimae,+3+%D0%A2%D1%91%D0%BC%D0%B5-14+%D0%90%D1%82%D0%B8,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.5030437,132.5259992,9z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355aa26d54333083:0xe129ced5b9751665!2m2!1d132.4522012!2d34.3926867!1m5!1m1!1s0x3551578dbadf5bad:0x2833464e75373abe!2m2!1d133.7683412!2d34.5983916!2m3!6e0!7e2!8j1742743800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 7230.0,
             "transport_time": "1ч 45 мин",
             "transport_type": "Метро/Шинкансен/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -375,35 +404,38 @@
           {
             "name": "Achi Shrine",
             "time": null,
-            "map": "откуда: Green Rich Hotel Kurashiki Ekimae; куда: Achi Shrine – Google Карты",
+            "map": "https://www.google.com/maps/dir/Green+Rich+Hotel+Kurashiki+Ekimae,+3+%D0%A2%D1%91%D0%BC%D0%B5-14+%D0%90%D1%82%D0%B8,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Achi+Shrine,+12+%D0%A5%D0%BE%D0%BC%D0%BC%D0%B0%D1%82%D0%B8,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.5978925,133.7683339,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x3551578dbadf5bad:0x2833464e75373abe!2m2!1d133.7683412!2d34.5983916!1m5!1m1!1s0x35515638d0278c9b:0xffa52559ceb74f9c!2m2!1d133.7734765!2d34.5974817!2m3!6e0!7e2!8j1742830200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Momotaro's Karakuri Museum",
             "time": "Без времени",
-            "map": "откуда: Achi Shrine; куда: Momotaro's Karakuri Museum – Google Карты",
+            "map": "https://www.google.com/maps/dir/Achi+Shrine,+12+%D0%A5%D0%BE%D0%BC%D0%BC%D0%B0%D1%82%D0%B8,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Momotaro's+Karakuri+Museum,+5+%D0%A5%D0%BE%D0%BC%D0%BC%D0%B0%D1%82%D0%B8,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.59615,133.770288,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x35515638d0278c9b:0xffa52559ceb74f9c!2m2!1d133.7734765!2d34.5974817!1m5!1m1!1s0x355156380e7285d3:0xa1b1e50c6e289c5b!2m2!1d133.7722494!2d34.5948386!2m3!6e0!7e2!8j1742830200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": "10:00-18:00",
             "ticket": 600.0,
-            "site": "TOP | momo"
+            "site": "https://momotaroukan3.wixsite.com/momo",
+            "site_label": "TOP | momo"
           },
           {
             "name": "Kurashiki’s Bikan Historical Quarter",
             "time": null,
-            "map": "откуда: Momotaro's Karakuri Museum; куда: Kurashiki Bikan Historical Quarter – Google Карты",
+            "map": "https://www.google.com/maps/dir/Momotaro's+Karakuri+Museum,+5+%D0%A5%D0%BE%D0%BC%D0%BC%D0%B0%D1%82%D0%B8,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kurashiki+Bikan+Historical+Quarter,+1+Chome-4+Central,+%D0%9A%D1%83%D1%80%D0%B0%D1%81%D0%B8%D0%BA%D0%B8,+%D0%9E%D0%BA%D0%B0%D1%8F%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.5953589,133.7695317,17z/am=t/data=!3m1!5s0x354193aa2fd67ecd:0xdb78b1edd7f3450!4m18!4m17!1m5!1m1!1s0x355156380e7285d3:0xa1b1e50c6e289c5b!2m2!1d133.7722494!2d34.5948386!1m5!1m1!1s0x355156479638dad5:0x11ce694116eb0dbe!2m2!1d133.7717651!2d34.5957392!2m3!6e0!7e2!8j1742830200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDEyOS4xIKXMDSoASAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Korakuen Garden",
@@ -414,7 +446,8 @@
             "transport_type": "Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Okayama Castle",
@@ -425,7 +458,8 @@
             "transport_type": "Пешком",
             "hours": "09:00-17:30",
             "ticket": 400.0,
-            "site": "User guide | 【公式】岡山城ウェブサイト"
+            "site": "https://okayama-castle.jp/guide-en/",
+            "site_label": "User guide | 【公式】岡山城ウェブサイト"
           },
           {
             "name": "First Cabin Nishi Umeda",
@@ -436,7 +470,8 @@
             "transport_type": "Метро/Шинкансен/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Umeda Sky Building",
@@ -447,7 +482,8 @@
             "transport_type": "Пешком",
             "hours": "09:00-22:00",
             "ticket": 2000.0,
-            "site": "Klook Travel"
+            "site": "https://umedaskybuilding.partner.klook.com/en-US/activity/78669-umeda-sky-building-kuchu-teien-observatory-ticket/?aid=30372&utm_medium=affiliate-alwayson&utm_source=non-network&utm_campaign=30372&utm_term&utm_content",
+            "site_label": "Klook Travel"
           },
           {
             "name": "First Cabin Nishi Umeda",
@@ -458,7 +494,8 @@
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -474,7 +511,8 @@
             "transport_type": "Метро",
             "hours": "10:00-22:00",
             "ticket": 2700.0,
-            "site": "Tickets | Osaka Aquarium KAIYUKAN"
+            "site": "https://www.kaiyukan.com/language/eng/ticket.html",
+            "site_label": "Tickets | Osaka Aquarium KAIYUKAN"
           },
           {
             "name": "Shinsekai",
@@ -485,7 +523,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": 1000.0,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Namba Yasaka Shrine",
@@ -496,7 +535,8 @@
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Dotombori +  Boat Ride",
@@ -507,7 +547,8 @@
             "transport_type": "Пешком",
             "hours": null,
             "ticket": 1500.0,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Nishi Umeda",
@@ -518,7 +559,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -534,7 +576,8 @@
             "transport_type": "Метро/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Minoh Falls",
@@ -545,7 +588,8 @@
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Cup noodle museum",
@@ -556,7 +600,8 @@
             "transport_type": "Пешком/Автобус/Метро",
             "hours": null,
             "ticket": 300.0,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "America-mura",
@@ -567,7 +612,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Nishi Umeda",
@@ -578,7 +624,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -594,7 +641,8 @@
             "transport_type": "Метро",
             "hours": "09:00-17:00",
             "ticket": 600.0,
-            "site": "ご利用案内 | 大阪城天守閣"
+            "site": "https://www.osakacastle.net/guide/",
+            "site_label": "ご利用案内 | 大阪城天守閣"
           },
           {
             "name": "Osaka Museum of Housing and Living",
@@ -605,7 +653,8 @@
             "transport_type": "Метро",
             "hours": "10:00-17:00",
             "ticket": 1000.0,
-            "site": "Opening hours and admission fees | Osaka Museum of Living and Past Life"
+            "site": "https://www-osaka--angenet-jp.translate.goog/konjyakukan/guide?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=ja&_x_tr_pto=nui",
+            "site_label": "Opening hours and admission fees | Osaka Museum of Living and Past Life"
           },
           {
             "name": "Nara Guesthouse Kamunabi",
@@ -616,7 +665,8 @@
             "transport_type": "Метро/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -632,7 +682,8 @@
             "transport_type": "Атобус/Поезд/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Sagano Train",
@@ -643,7 +694,8 @@
             "transport_type": null,
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Hozugawa River Boat Ride",
@@ -654,7 +706,8 @@
             "transport_type": "Пешком/Автобус",
             "hours": "08:00-17:00",
             "ticket": 6000.0,
-            "site": "Reservation & Fares | Welcome to the website of Hozu-gawa River Boat (Hozu-gawa Yusen Sightseeing Boat Association)"
+            "site": "https://translation2.j-server.com/LUCHZGWK/ns/tl.cgi/https:/www.hozugawakudari.jp/tickets?SLANG=ja&TLANG=en&XMODE=0&XCHARSET=UTF-8&XJSID=0",
+            "site_label": "Reservation & Fares | Welcome to the website of Hozu-gawa River Boat (Hozu-gawa Yusen Sightseeing Boat Association)"
           },
           {
             "name": "Fu Fu No Yu Onsen",
@@ -665,7 +718,8 @@
             "transport_type": "Пешком",
             "hours": "12:00-22:00",
             "ticket": 1100.0,
-            "site": "Kyoto Arashiyama Onsen Hot Spring Bath Place Fufu no Yu"
+            "site": "https://dormy-hotels.com/spa/fufu/?utm_source=google&utm_medium=gbp&utm_campaign=gbpurl",
+            "site_label": "Kyoto Arashiyama Onsen Hot Spring Bath Place Fufu no Yu"
           },
           {
             "name": "Yasaka Jinja",
@@ -676,7 +730,8 @@
             "transport_type": "Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Nara Guesthouse Kamunabi",
@@ -687,7 +742,8 @@
             "transport_type": "Метро/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -703,7 +759,8 @@
             "transport_type": "Атобус/Поезд/Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Tetsugaku No Michi",
@@ -714,7 +771,8 @@
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Shirakawa Canal",
@@ -725,7 +783,8 @@
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Maruyama park",
@@ -736,7 +795,8 @@
             "transport_type": "Пешком",
             "hours": "10:00-18:00",
             "ticket": 5000.0,
-            "site": "Rent a kimono or yukata at Okamoto in Kyoto when visiting Japan"
+            "site": "https://www.okamoto-kimono-en.com/",
+            "site_label": "Rent a kimono or yukata at Okamoto in Kyoto when visiting Japan"
           },
           {
             "name": "Sannenzaka + Ninenzaka (kimono)",
@@ -747,7 +807,8 @@
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kiyomizu-dera Temple",
@@ -758,7 +819,8 @@
             "transport_type": "Пешком",
             "hours": "06:00-21:30",
             "ticket": 500.0,
-            "site": "Kiyomizu-dera Temple | Kyoto City Official Travel Guide"
+            "site": "https://kyoto.travel/en/shrine_temple/131.html",
+            "site_label": "Kiyomizu-dera Temple | Kyoto City Official Travel Guide"
           },
           {
             "name": "Nara Guesthouse Kamunabi",
@@ -769,7 +831,8 @@
             "transport_type": "Атобус/Поезд/Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -785,7 +848,8 @@
             "transport_type": "Метро/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kinkakuji temple",
@@ -796,18 +860,20 @@
             "transport_type": "Метро/Автобус",
             "hours": "09:00-17:00",
             "ticket": 500.0,
-            "site": "ACCESS | Kinkaku-ji | 臨済宗相国寺派"
+            "site": "https://www.shokoku-ji.jp/en/kinkakuji/access/",
+            "site_label": "ACCESS | Kinkaku-ji | 臨済宗相国寺派"
           },
           {
             "name": "Nara Guesthouse Kamunabi",
             "time": null,
-            "map": "откуда: Кинкаку-дзи; куда: Nara Guesthouse Kamunabi – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kinkakuji+Temple,+1+%D0%9A%D0%B8%D0%BD%D0%BA%D0%B0%D0%BA%D1%83%D0%B4%D0%B7%D0%B8%D1%82%D1%91,+%D0%9A%D0%B8%D1%82%D0%B0,+%D0%9A%D0%B8%D0%BE%D1%82%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Nara+Guesthouse+Kamunabi,+%D0%9A%D0%B8%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D1%91,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.8607366,135.6198163,11z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6001a820c0eb46bd:0xee4272b1c22645f!2m2!1d135.7292431!2d35.03937!1m5!1m1!1s0x6001398d2e72a6df:0x65b23908383f0193!2m2!1d135.8356012!2d34.6770709!2m3!6e0!7e2!8j1743357600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 1760.0,
             "transport_time": "1 ч 50 мин",
             "transport_type": "Атобус/Поезд/Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -817,46 +883,50 @@
           {
             "name": "Nakatanidou",
             "time": null,
-            "map": "откуда: Nara Guesthouse Kamunabi; куда: Nakatanidou – Google Карты",
+            "map": "https://www.google.com/maps/dir/Nara+Guesthouse+Kamunabi,+%D0%9A%D0%B8%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D1%91,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Nakatanidou,+%D0%A5%D0%B0%D1%81%D0%B8%D0%BC%D0%BE%D1%82%D0%BE%D1%82%D1%91,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6807515,135.8270992,16z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6001398d2e72a6df:0x65b23908383f0193!2m2!1d135.8356012!2d34.6770709!1m5!1m1!1s0x6001398812073c9b:0xca16527bbdfdc288!2m2!1d135.8288995!2d34.681943!2m3!6e0!7e2!8j1743408000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Todaiji temple",
             "time": "Покупка на месте",
-            "map": "откуда: Nakatanidou; куда: Тодай-дзи – Google Карты",
+            "map": "https://www.google.com/maps/dir/Nakatanidou,+%D0%A5%D0%B0%D1%81%D0%B8%D0%BC%D0%BE%D1%82%D0%BE%D1%82%D1%91,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/T%C5%8Ddai-ji,+406-1+Z%C5%8Dshich%C5%8D,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6858311,135.8281413,16z/am=t/data=!4m19!4m18!1m5!1m1!1s0x6001398812073c9b:0xca16527bbdfdc288!2m2!1d135.8288995!2d34.681943!1m5!1m1!1s0x600139907a0876dd:0xf890ac3f9dd53c8f!2m2!1d135.8398158!2d34.6889851!2m3!6e0!7e2!8j1743408000!3e3!5i5!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": "07:30-17:30",
             "ticket": 800.0,
-            "site": "Opening Hours / Admission Fees - 東大寺"
+            "site": "https://www.todaiji.or.jp/en/information/haikan/",
+            "site_label": "Opening Hours / Admission Fees - 東大寺"
           },
           {
             "name": "Nara park",
             "time": "Покупка на месте",
-            "map": "откуда: Тодай-дзи; куда: Nara Park, Нара, Япония – Google Карты",
+            "map": "https://www.google.com/maps/dir/T%C5%8Ddai-ji,+406-1+Z%C5%8Dshich%C5%8D,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Nara+Park,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.687016,135.8376554,17z/am=t/data=!4m18!4m17!1m5!1m1!1s0x600139907a0876dd:0xf890ac3f9dd53c8f!2m2!1d135.8398158!2d34.6889851!1m5!1m1!1s0x60013996bd8c6061:0xf96cacf357447456!2m2!1d135.843012!2d34.685047!2m3!6e0!7e2!8j1743408000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": 600.0,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Касуга-тайся",
             "time": "Покупка на месте",
-            "map": "откуда: Nara Park, Нара, Япония; куда: Касуга-тайся – Google Карты",
+            "map": "https://www.google.com/maps/dir/Nara+Park,+%D0%9D%D0%B0%D1%80%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%9A%D0%B0%D1%81%D1%83%D0%B3%D0%B0-%D1%82%D0%B0%D0%B9%D1%81%D1%8F,+160+Kasuganocho,+Nara,+630-8212,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.6832961,135.836485,16z/am=t/data=!4m14!4m13!1m5!1m1!1s0x60013996bd8c6061:0xf96cacf357447456!2m2!1d135.843012!2d34.685047!1m5!1m1!1s0x600139c06bb06ad5:0x4c97e78382e39596!2m2!1d135.8484719!2d34.6815454!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": "07:00-17:00",
             "ticket": 500.0,
-            "site": "General Information | 春日大社"
+            "site": "https://www.kasugataisha.or.jp/en/about_en/basic/",
+            "site_label": "General Information | 春日大社"
           }
         ]
       },
@@ -872,41 +942,45 @@
             "transport_type": "Автобус/Поезд/Шинкансен/Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Музей Хаконе под открытым небом",
             "time": "Покупка на месте",
-            "tag": "На месте",
-            "map": "откуда: HAKONE ONSEN GUESTHOUSE TSUTAYA; куда: Музей Хаконе под открытым небом – Google Карты",
+            "map": "https://www.google.com/maps/dir/HAKONE+ONSEN+GUESTHOUSE+TSUTAYA,+240-1+Sokokura,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5+%D0%BF%D0%BE%D0%B4+%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC+%D0%BD%D0%B5%D0%B1%D0%BE%D0%BC,+%D0%9D%D0%B8%D0%BD%D0%BE%D1%82%D0%B0%D0%B9%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.2423789,139.0506482,17z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6019a21673cad84f:0x226217fc4296ab54!2m2!1d139.0568583!2d35.2440155!1m5!1m1!1s0x6019a204a396f331:0x588e39a7e90a6c5f!2m2!1d139.0513725!2d35.2449837!2m3!6e0!7e2!8j1743508800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "20 мин",
             "transport_type": "Автобус/Пешком",
             "hours": null,
             "ticket": 10100.0,
-            "site": "Fuji Hakone Pass - Odakyu Railway: Connecting Shinjuku, Hakone and Enoshima"
+            "site": "https://www.odakyu.jp/english/passes/fujihakone/",
+            "site_label": "Fuji Hakone Pass - Odakyu Railway: Connecting Shinjuku, Hakone and Enoshima",
+            "tag": "На месте"
           },
           {
             "name": "Heiwa no Torii",
             "time": null,
-            "map": "откуда: Музей Хаконе под открытым небом; куда: Heiwa no Torii – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5+%D0%BF%D0%BE%D0%B4+%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC+%D0%BD%D0%B5%D0%B1%D0%BE%D0%BC,+%D0%9D%D0%B8%D0%BD%D0%BE%D1%82%D0%B0%D0%B9%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Heiwa+no+Torii,+80-1+%D0%9C%D0%BE%D1%82%D0%BE%D1%85%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.2231095,139.0179446,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6019a204a396f331:0x588e39a7e90a6c5f!2m2!1d139.0513725!2d35.2449837!1m5!1m1!1s0x6019988a06f105ab:0x6f4b50288715dc3a!2m2!1d139.0257419!2d35.202783!2m3!6e0!7e2!8j1743521400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "35 мин",
             "transport_type": "Автобус/Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Onsen Guest House Tsutaya",
             "time": null,
-            "map": "откуда: Heiwa no Torii; куда: HAKONE ONSEN GUESTHOUSE TSUTAYA – Google Карты",
+            "map": "https://www.google.com/maps/dir/Heiwa+no+Torii,+80-1+%D0%9C%D0%BE%D1%82%D0%BE%D1%85%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/HAKONE+ONSEN+GUESTHOUSE+TSUTAYA,+%D0%A1%D0%BE%D0%BA%D0%BE%D0%BA%D1%83%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.2233485,139.0209114,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6019988a06f105ab:0x6f4b50288715dc3a!2m2!1d139.0257419!2d35.202783!1m5!1m1!1s0x6019a21673cad84f:0x226217fc4296ab54!2m2!1d139.0568583!2d35.2440155!2m3!6e0!7e2!8j1743532200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 1500.0,
             "transport_time": "30 мин",
             "transport_type": "Такси",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -916,13 +990,14 @@
           {
             "name": "Hakone Ropeway",
             "time": null,
-            "map": "откуда: HAKONE ONSEN GUESTHOUSE TSUTAYA; куда: Gora Station – Google Карты",
+            "map": "https://www.google.com/maps/dir/HAKONE+ONSEN+GUESTHOUSE+TSUTAYA,+%D0%A1%D0%BE%D0%BA%D0%BE%D0%BA%D1%83%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Gora+Station,+%D0%93%D0%BE%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.2456398,139.0445264,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6019a21673cad84f:0x226217fc4296ab54!2m2!1d139.0568583!2d35.2440155!1m5!1m1!1s0x6019a1f8e2cf7ce1:0xde5366adc0f07c4f!2m2!1d139.048205!2d35.250852!2m3!6e0!7e2!8j1743584400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Поезд/Канатная дорога",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Owakudani",
@@ -933,40 +1008,44 @@
             "transport_type": "Канатная дорога",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Hakone Sightseeing Cruise",
             "time": null,
-            "map": "откуда: Owakudani Observatory; куда: Hakone Pirate Ship Tōgendai Port – Google Карты",
+            "map": "https://www.google.com/maps/dir/Owakudani+Observatory,+%D0%A1%D0%B5%D0%BD%D0%B3%D0%BE%D0%BA%D1%83%D1%85%D0%B0%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Hakone+Pirate+Ship+T%C5%8Dgendai+Port,+164+%D0%9C%D0%BE%D1%82%D0%BE%D1%85%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.253915,138.9923984,13z/am=t/data=!3m1!4b1!4m19!4m18!1m5!1m1!1s0x60199f99b9b2bb53:0x6175c2b950611546!2m2!1d139.0198374!2d35.2434926!1m5!1m1!1s0x60199eda464b29f1:0xda213f9401592c10!2m2!1d138.9944758!2d35.237305!2m3!6e0!7e2!8j1743588000!3e3!5i4!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Канатная дорога/Корабль",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Mt. Taikan Observation Deck",
             "time": null,
-            "map": "откуда: Hakone Sightseeing Cruise; куда: Mt. Taikan Observation Deck – Google Карты",
+            "map": "https://www.google.com/maps/dir/Hakone+Sightseeing+Cruise,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Mt.+Taikan+Observation+Deck,+%D0%9A%D0%B0%D0%B4%D0%B7%D0%B8%D1%8F,+%D0%AE%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.1791817,139.0208757,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6019986973c62cb9:0xb2fd36158e87070!2m2!1d139.0245298!2d35.1899898!1m5!1m1!1s0x6019a2a5873394df:0x49666cc863ae5172!2m2!1d139.048367!2d35.1847223!2m3!6e0!7e2!8j1743597000!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "2 часа",
             "transport_type": "Пешком или попутка",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Onsen Guest House Tsutaya",
             "time": null,
-            "map": "откуда: Mt. Taikan Observation Deck; куда: HAKONE ONSEN GUESTHOUSE TSUTAYA – Google Карты",
+            "map": "https://www.google.com/maps/dir/Mt.+Taikan+Observation+Deck,+%D0%9A%D0%B0%D0%B4%D0%B7%D0%B8%D1%8F,+%D0%AE%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/HAKONE+ONSEN+GUESTHOUSE+TSUTAYA,+%D0%A1%D0%BE%D0%BA%D0%BE%D0%BA%D1%83%D1%80%D0%B0,+%D0%A5%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.2066419,139.0201843,13z/am=t/data=!4m19!4m18!1m5!1m1!1s0x6019a2a5873394df:0x49666cc863ae5172!2m2!1d139.048367!2d35.1847223!1m5!1m1!1s0x6019a21673cad84f:0x226217fc4296ab54!2m2!1d139.0568583!2d35.2440155!2m3!6e0!7e2!8j1743604200!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 1000.0,
             "transport_time": "3 часа 30 мин",
             "transport_type": "Пешком или попутка/ Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -976,57 +1055,62 @@
           {
             "name": "Hachi- Accommodation",
             "time": null,
-            "map": "откуда: HAKONE ONSEN GUESTHOUSE TSUTAYA; куда: 八 ( Hachi ) Accommodation – Google Карты",
+            "map": "https://www.google.com/maps/dir/HAKONE+ONSEN+GUESTHOUSE+TSUTAYA,+240-1+Sokokura,+Hakone,+Ashigarashimo+District,+Kanagawa+250-0403,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%E3%80%92401-0302+Yamanashi,+Minamitsuru+District,+Fujikawaguchiko,+Kodachi,+1174+%E5%85%AB+(+Hachi+)+Accommodation/@35.3034908,138.6281251,10z/am=t/data=!3m1!4b1!4m18!4m17!1m5!1m1!1s0x6019a21673cad84f:0x226217fc4296ab54!2m2!1d139.0568583!2d35.2440155!1m5!1m1!1s0x60195f241894b317:0xd38f4b8501730555!2m2!1d138.7593521!2d35.5090928!2m3!6e0!7e2!8j1743656400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 3690.0,
             "transport_time": "3 часа",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Mt. Fuji Panoramic Ropeway",
             "time": null,
-            "map": "откуда: 八 ( Hachi ) Accommodation; куда: Mt. Fuji Panoramic Ropeway – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%E3%80%92401-0302+Yamanashi,+Minamitsuru+District,+Fujikawaguchiko,+Kodachi,+1174+%E5%85%AB+(+Hachi+)+Accommodation/Mt.+Fuji+Panoramic+Ropeway,+%D0%90%D0%B4%D0%B7%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5062956,138.7603515,16z/am=t/data=!3m1!4b1!4m18!4m17!1m5!1m1!1s0x60195f241894b317:0xd38f4b8501730555!2m2!1d138.7593521!2d35.5090928!1m5!1m1!1s0x60195e268ba95555:0x4fa724d1d92f7142!2m2!1d138.7720895!2d35.5040321!2m3!6e0!7e2!8j1743656400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kawaguchiko Music Forest Museum",
             "time": null,
-            "map": "откуда: Mt. Fuji Panoramic Ropeway; куда: Kawaguchiko Music Forest Museum – Google Карты",
+            "map": "https://www.google.com/maps/dir/Mt.+Fuji+Panoramic+Ropeway,+%D0%90%D0%B4%D0%B7%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kawaguchiko+Music+Forest+Museum,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5133673,138.7603381,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60195e268ba95555:0x4fa724d1d92f7142!2m2!1d138.7720895!2d35.5040321!1m5!1m1!1s0x60195e4f455690bf:0xcc5aa17825df4a75!2m2!1d138.768715!2d35.5224188!2m3!6e0!7e2!8j1743681600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 300.0,
             "transport_time": "15 мин",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Oishi Park",
             "time": null,
-            "map": "откуда: Kawaguchiko Music Forest Museum; куда: Oishi Park – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kawaguchiko+Music+Forest+Museum,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Oishi+Park,+%D0%9E%D0%B8%D1%81%D0%B8,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5240686,138.7470861,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60195e4f455690bf:0xcc5aa17825df4a75!2m2!1d138.768715!2d35.5224188!1m5!1m1!1s0x60195fa68c0b2b95:0xa22e530b3a652904!2m2!1d138.7457522!2d35.522904!2m3!6e0!7e2!8j1743681600!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Hachi- Accommodation",
             "time": null,
-            "map": "откуда: Oishi Park; куда: 八 ( Hachi ) Accommodation – Google Карты",
+            "map": "https://www.google.com/maps/dir/Oishi+Park,+%D0%9E%D0%B8%D1%81%D0%B8,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BEKodachi,+1174+%E5%85%AB+(+Hachi+)+Accommodation/@35.514441,138.7495041,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60195fa68c0b2b95:0xa22e530b3a652904!2m2!1d138.7457522!2d35.522904!1m5!1m1!1s0x60195f241894b317:0xd38f4b8501730555!2m2!1d138.7593521!2d35.5090928!2m3!6e0!7e2!8j1743681600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 470.0,
             "transport_time": "30 мин",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1036,57 +1120,62 @@
           {
             "name": "Chureito Pagoda",
             "time": null,
-            "map": "откуда: 八 ( Hachi ) Accommodation; куда: Chureito Pagoda – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%E3%80%92401-0302+Yamanashi,+Minamitsuru+District,+Fujikawaguchiko,+Kodachi,+1174+%E5%85%AB+(+Hachi+)+Accommodation/Chureito+Pagoda,+2+%D0%A2%D1%91%D0%BC%D0%B5-4+%D0%90%D1%81%D0%B0%D0%BC%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%91%D1%81%D0%B8%D0%B4%D0%B0,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4963064,138.7610727,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60195f241894b317:0xd38f4b8501730555!2m2!1d138.7593521!2d35.5090928!1m5!1m1!1s0x6019674cfd52a073:0xda57e34920aee799!2m2!1d138.8013852!2d35.5012626!2m3!6e0!7e2!8j1743660000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 310.0,
             "transport_time": "1 ч",
             "transport_type": "Пешком/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kanadorii",
             "time": null,
-            "map": "откуда: Chureito Pagoda; куда: Kanadorii – Google Карты",
+            "map": "https://www.google.com/maps/dir/Chureito+Pagoda,+2+%D0%A2%D1%91%D0%BC%D0%B5-4+%D0%90%D1%81%D0%B0%D0%BC%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%91%D1%81%D0%B8%D0%B4%D0%B0,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kanadorii,+2+Chome-1-15+Kamiyoshida,+Fujiyoshida,+Yamanashi+403-0005,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4833239,138.7782862,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6019674cfd52a073:0xda57e34920aee799!2m2!1d138.8013852!2d35.5012626!1m5!1m1!1s0x601961cced42ed7d:0xda54be5fb1c26ff5!2m2!1d138.797992!2d35.4832338!2m3!6e0!7e2!8j1743670800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 230.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком/Поезд",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kitaguchi Hongu Fuji Sengen Shrine",
             "time": null,
-            "map": "откуда: Kanadorii; куда: Kitaguchi Hongu Fuji Sengen Shrine – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kanadorii,+2+Chome-1-15+Kamiyoshida,+Fujiyoshida,+Yamanashi+403-0005,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kitaguchi+Hongu+Fuji+Sengen+Shrine,+5558+Kamiyoshida,+Fujiyoshida,+Yamanashi+403-0005,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4768314,138.7840618,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x601961cced42ed7d:0xda54be5fb1c26ff5!2m2!1d138.797992!2d35.4832338!1m5!1m1!1s0x60196129b1baaaab:0x351d81311ed09dfe!2m2!1d138.7922637!2d35.470696!2m3!6e0!7e2!8j1743766200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "15 мин",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Onsen - Fuji Yurari Hot Spring",
             "time": "Покупка на месте",
-            "map": "откуда: Kitaguchi Hongu Fuji Sengen Shrine; куда: Onsen - Fuji Yurari Hot Spring – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kitaguchi+Hongu+Fuji+Sengen+Shrine,+5558+Kamiyoshida,+Fujiyoshida,+Yamanashi+403-0005,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Onsen+-+Fuji+Yurari+Hot+Spring,+8532-5,+%D0%9D%D0%B0%D1%80%D1%83%D1%81%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4910652,138.6410342,12z/am=t/data=!3m1!5s0x601be06fd48f4e97:0x2954dd00560a7e47!4m19!4m18!1m5!1m1!1s0x60196129b1baaaab:0x351d81311ed09dfe!2m2!1d138.7922637!2d35.470696!1m5!1m1!1s0x601be06d335ae1d3:0xc71efe6b9fde560c!2m2!1d138.6915967!2d35.4761278!2m3!6e0!7e2!8j1743777000!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 910.0,
             "transport_time": "1 ч 30 мин",
             "transport_type": "Пешком/Поезд/Автобус",
             "hours": "10:00-21:00",
             "ticket": 2400.0,
-            "site": "Prices/Plans｜\"Fuji View Hot Spring Yurari\""
+            "site": "https://www.fuji-yurari.jp/charge-plan.html",
+            "site_label": "Prices/Plans｜\"Fuji View Hot Spring Yurari\""
           },
           {
             "name": "Hachi- Accommodation",
             "time": null,
-            "map": "откуда: Onsen - Fuji Yurari Hot Spring; куда: 八 ( Hachi ) Accommodation – Google Карты",
+            "map": "https://www.google.com/maps/dir/Onsen+-+Fuji+Yurari+Hot+Spring,+8532-5,+%D0%9D%D0%B0%D1%80%D1%83%D1%81%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BEKodachi,+1174+%E5%85%AB+(+Hachi+)+Accommodation/@35.4926161,138.7046261,14z/am=t/data=!3m1!5s0x601be06fd48f4e97:0x2954dd00560a7e47!4m18!4m17!1m5!1m1!1s0x601be06d335ae1d3:0xc71efe6b9fde560c!2m2!1d138.6915967!2d35.4761278!1m5!1m1!1s0x60195f241894b317:0xd38f4b8501730555!2m2!1d138.7593521!2d35.5090928!2m3!6e0!7e2!8j1743794100!3e0!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Такси/Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1096,58 +1185,63 @@
           {
             "name": "Аокигахара",
             "time": null,
-            "map": "откуда: Аокигахара; куда: 八 ( Hachi ) Accommodation – Google Карты",
+            "map": "https://www.google.com/maps/dir/Aokigahara,+%D0%9D%D0%B0%D1%80%D1%83%D1%81%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%E3%80%92401-0302+Yamanashi,+Minamitsuru+District,+Fujikawaguchiko,+Kodachi,+1174+%E5%85%AB+(+Hachi+)+Accommodation/@35.4934804,138.6644898,13z/am=t/data=!4m18!4m17!1m5!1m1!1s0x601be721e912db77:0xed043493c8ad92e1!2m2!1d138.6405014!2d35.4752183!1m5!1m1!1s0x60195f241894b317:0xd38f4b8501730555!2m2!1d138.7593521!2d35.5090928!2m3!6e0!7e2!8j1743832800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 710.0,
             "transport_time": "50 мин",
             "transport_type": "Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Fugaku Wind Cave",
             "time": null,
-            "map": "откуда: Аокигахара; куда: Fugaku Wind Cave – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%90%D0%BE%D0%BA%D0%B8%D0%B3%D0%B0%D1%85%D0%B0%D1%80%D0%B0,+%D0%9D%D0%B0%D1%80%D1%83%D1%81%D0%B0%D0%B2%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Fugaku+Wind+Cave,+%D0%A1%D0%B0%D0%B9%D0%BA%D0%BE,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4764572,138.6443374,16z/am=t/data=!4m18!4m17!1m5!1m1!1s0x601be721e912db77:0xed043493c8ad92e1!2m2!1d138.6405014!2d35.4752183!1m5!1m1!1s0x601be0576a66aaab:0x6f86339c79906034!2m2!1d138.6578277!2d35.4776963!2m3!6e0!7e2!8j1743832800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "откуда: Fugaku Wind Cave; куда: First Cabin Akasaka – Google Карты",
+            "map": "https://www.google.com/maps/dir/Fugaku+Wind+Cave,+%D0%A1%D0%B0%D0%B9%D0%BA%D0%BE,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D0%B3%D1%83%D1%82%D0%B8%D0%BA%D0%BE,+%D0%AF%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D0%B8,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/First+Cabin+Akasaka,+%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E8%B5%A4%E5%9D%82%E3%83%93%E3%83%AB+3+%D0%A2%D1%91%D0%BC%D0%B5-13+%D0%90%D0%BA%D0%B0%D1%81%D0%B0%D0%BA%D0%B0,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4365759,138.9139971,10.54z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m19!4m18!1m5!1m1!1s0x601be0576a66aaab:0x6f86339c79906034!2m2!1d138.6578277!2d35.4776963!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!2m3!6e0!7e2!8j1741188420!3e3!5i3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 3320.0,
             "transport_time": "3 ч 20 мин",
             "transport_type": "Атобус/Поезд/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Centifolia bar",
             "time": "Не открылась продажа",
-            "tag": "28.03 бронь",
-            "map": "откуда: First Cabin Akasaka; куда: Bar Centifolia – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E8%B5%A4%E5%9D%82%E3%83%93%E3%83%AB+3+%D0%A2%D1%91%D0%BC%D0%B5-13+%D0%90%D0%BA%D0%B0%D1%81%D0%B0%D0%BA%D0%B0,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Bar+Centifolia,+1+Chome-6-5+%D0%90%D0%B4%D0%B7%D0%B0%D0%B1%D1%83%D0%B4%D0%B7%D1%8E%D0%B1%D0%B0%D0%BD,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6664128,139.7223844,15z/am=t/data=!3m2!4b1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x60188b9fa69c033f:0xc44593ba0ccc4863!2m2!1d139.7341917!2d35.6563556!2m3!6e0!7e2!8j1741206600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": "20:30-03:00",
             "ticket": 10000.0,
-            "site": "BAR CENTIFOLIA - TableCheck"
+            "site": "https://www.tablecheck.com/shops/bar-centifolia/reserve?utm_source=google",
+            "site_label": "BAR CENTIFOLIA - TableCheck",
+            "tag": "28.03 бронь"
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 180.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1157,147 +1251,160 @@
           {
             "name": "Shibuya Sky",
             "time": "Не открылась продажа",
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 210.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком/Метро",
             "hours": "10:00-22:30",
             "ticket": 2200.0,
-            "site": "チケット購入 | SHIBUYA SKY"
+            "site": "https://www.shibuya-scramble-square.com/sky/ticket/",
+            "site_label": "チケット購入 | SHIBUYA SKY"
           },
           {
             "name": "Shibuya Scramble Crossing",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Hachiko Square",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Shibuya Loft",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Sakura street",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Meiji Jingu",
             "time": null,
-            "map": "откуда: SAKURA STREET; куда: Храм Мэйдзи – Google Карты",
+            "map": "https://www.google.com/maps/dir/SAKURA+STREET,+1-1+Sakuragaokacho,+Shibuya,+Tokyo+150-0031,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%A5%D1%80%D0%B0%D0%BC+%D0%9C%D1%8D%D0%B9%D0%B4%D0%B7%D0%B8,+1-1+Yoyogikamizonocho,+Shibuya,+Tokyo+151-8557,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6661882,139.6915344,15z/am=t/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x60188b0066c8ca39:0xd45dcbda61f94d89!2m2!1d139.7029133!2d35.6559852!1m5!1m1!1s0x60188cb79a4c26e5:0x8fca893849103f73!2m2!1d139.6993259!2d35.6763976!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Harajuku Station",
             "time": null,
-            "tag": "Аниме место",
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": null,
             "transport_time": null,
             "transport_type": null,
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null,
+            "tag": "Аниме место"
           },
           {
             "name": "Takeshita Street",
             "time": null,
-            "tag": "Аниме место",
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null,
+            "tag": "Аниме место"
           },
           {
             "name": "Shinjuku Gyoen Cherry Tree Area",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Godzilla Head",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "3D cat Cross Shinjuku Space",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Omoide Yokocho",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "откуда: Omoide Yokocho; куда: First Cabin Akasaka – Google Карты",
+            "map": "https://www.google.com/maps/dir/Omoide+Yokocho,+1+Chome-2+Nishishinjuku,+Shinjuku+City,+Tokyo+160-0023,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6778783,139.6884002,14z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188cd7058ad73f:0x908f55935cc13cd3!2m2!1d139.6995724!2d35.6929614!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!2m3!6e0!7e2!8j1743946140!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1307,90 +1414,98 @@
           {
             "name": "Asakusa Culture Tourist Information Center",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Asakusa Culture Tourist Information Center – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Asakusa+Culture+Tourist+Information+Center,+2+Chome-18-9+Kaminarimon,+Taito+City,+Tokyo+111-0034,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6894535,139.7460452,14z/am=t/data=!3m1!5s0x60188ec6e881bfbf:0x1baeb8444779d7e6!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x60188ec1060d67af:0x7740294b7ef17d49!2m2!1d139.7965461!2d35.7107074!2m3!6e0!7e2!8j1744032660!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 210.0,
             "transport_time": "35 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Temple: Senso-ji",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Nakamise shopping street",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Sumida Hokusai Museum",
             "time": "Покупка на месте",
-            "map": "откуда: Nakamise-dori Street; куда: The Sumida Hokusai Museum – Google Карты",
+            "map": "https://www.google.com/maps/dir/Nakamise-dori+Street,+1+Chome-36-3+Asakusa,+Taito+City,+Tokyo+111-0032,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/The+Sumida+Hokusai+Museum,+2+Chome-7-2+Kamezawa,+Sumida+City,+Tokyo+130-0014,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.7042097,139.7873057,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60188ec130fbdd3d:0x5135221a7fa19dbc!2m2!1d139.7964542!2d35.7118413!1m5!1m1!1s0x60188933b7d31881:0x7a02011fb48182aa!2m2!1d139.8003115!2d35.6963259!2m3!6e0!7e2!8j1744032720!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "25 мин",
             "transport_type": "Пешком/Метро",
             "hours": "09:30-17:30",
             "ticket": 400.0,
-            "site": "すみだ北斎美術館 - Plan your visit"
+            "site": "https://hokusai-museum.jp/modules/Page/pages/view/1111?lang=en",
+            "site_label": "すみだ北斎美術館 - Plan your visit"
           },
           {
             "name": "Tokyo Cruise Asakusa Pier",
             "time": "13:10",
-            "map": "откуда: The Sumida Hokusai Museum; куда: Tokyo Cruise Asakusa Pier – Google Карты",
+            "map": "https://www.google.com/maps/dir/The+Sumida+Hokusai+Museum,+2+Chome-7-2+Kamezawa,+Sumida+City,+Tokyo+130-0014,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Tokyo+Cruise+Asakusa+Pier,+1+Chome-1-1+Hanakawado,+Taito+City,+Tokyo+111-0033,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.7034831,139.7872071,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60188933b7d31881:0x7a02011fb48182aa!2m2!1d139.8003115!2d35.6963259!1m5!1m1!1s0x60188ec431e6e25b:0xa85cee8286c398d3!2m2!1d139.798482!2d35.710767!2m3!6e0!7e2!8j1739705400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 100.0,
             "transport_time": "25 мин",
             "transport_type": "Пешком/Автобус",
             "hours": "10:00:00",
             "ticket": 2000.0,
-            "site": "Rediscover Tokyo from the water | TOKYO CRUISE SHIP"
+            "site": "https://www.suijobus.co.jp/en/",
+            "site_label": "Rediscover Tokyo from the water | TOKYO CRUISE SHIP"
           },
           {
             "name": "Odaiba",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 2000.0,
             "transport_time": "1 час",
             "transport_type": "На пароме",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "teamLab Planets TOKYO",
             "time": "18:00-18:30",
-            "map": "откуда: Одайба; куда: teamLab Planets TOKYO DMM – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%9E%D0%B4%D0%B0%D0%B9%D0%B1%D0%B0,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/teamLab+Planets+TOKYO+DMM,+6+Chome-1-16+Toyosu,+Koto+City,+Tokyo+135-0061,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6292068,139.7681582,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x601889f82c55d4cb:0x79fe8b211d2010b9!2m2!1d139.7805445!2d35.6205834!1m5!1m1!1s0x60188908e728e749:0x6de450c94bd3d622!2m2!1d139.7898213!2d35.649074!2m3!6e0!7e2!8j1744033560!5i2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 260.0,
             "transport_time": "25 мин",
             "transport_type": "Пешком/Метро",
             "hours": "09:00-22:00",
             "ticket": 3600.0,
-            "site": "Select admission date and time - teamLab Planets TOKYO Official Ticket Store"
+            "site": "https://teamlabplanets.dmm.com/en/ticket/admission_date/6f0c81c9b65645f6216e7e87d35cda27",
+            "site_label": "Select admission date and time - teamLab Planets TOKYO Official Ticket Store"
           },
           {
             "name": "Tokyo Sky Tree",
             "time": "20:30",
-            "map": "откуда: teamLab Planets TOKYO DMM; куда: Tokyo Skytree – Google Карты",
+            "map": "https://www.google.com/maps/dir/teamLab+Planets+TOKYO+DMM,+6+Chome-1-16+Toyosu,+Koto+City,+Tokyo+135-0061,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Tokyo+Skytree,+1+Chome-1-2+Oshiage,+Sumida+City,+Tokyo+131-0045,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6794055,139.7496075,13z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60188908e728e749:0x6de450c94bd3d622!2m2!1d139.7898213!2d35.649074!1m5!1m1!1s0x60188ed0d12f9adf:0x7d1d4fb31f43f72a!2m2!1d139.8107004!2d35.7100627!2m3!6e0!7e2!8j1744053480!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 430.0,
             "transport_time": "45 мин",
             "transport_type": "Пешком/Метро/Автобус",
             "hours": "10:00-22:00",
             "ticket": 3100.0,
-            "site": "Tickets | TOKYO SKY TREE"
+            "site": "https://www.tokyo-skytree.jp/en/ticket/individual/",
+            "site_label": "Tickets | TOKYO SKY TREE"
           },
           {
             "name": "First Cabin Akasaka",
@@ -1401,7 +1516,8 @@
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1411,79 +1527,86 @@
           {
             "name": "Tsukiji Fish Market",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Tsukiji Outer Market – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Tsukiji+Outer+Market,+4+Chome+Tsukiji,+Chuo+City,+Tokyo+104-0045,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6698077,139.744064,15z/am=t/data=!3m1!5s0x60188bded0599099:0x9e8525c63588dca4!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x60188b21cd0b675b:0xa26e24a1bf97025c!2m2!1d139.7706709!2d35.6650756!2m3!6e0!7e2!8j1739689200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "25 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "National Museum of Nature and Science",
             "time": "Покупка на месте",
-            "map": "откуда: Tsukiji Outer Market; куда: Национальный музей природы и науки – Google Карты",
+            "map": "https://www.google.com/maps/dir/Tsukiji+Outer+Market,+4+Chome+Tsukiji,+Chuo+City,+Tokyo+104-0045,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%BC%D1%83%D0%B7%D0%B5%D0%B9+%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D1%8B+%D0%B8+%D0%BD%D0%B0%D1%83%D0%BA%D0%B8,+7-20+Uenokoen,+Taito+City,+Tokyo+110-8718,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6859881,139.7285329,13z/am=t/data=!3m1!5s0x60188e9c60202303:0x62418cdaee37d8df!4m19!4m18!1m5!1m1!1s0x60188b21cd0b675b:0xa26e24a1bf97025c!2m2!1d139.7706709!2d35.6650756!1m5!1m1!1s0x60188e9ceba15bf1:0x89884580e40b3eca!2m2!1d139.7763421!2d35.7164689!2m3!6e0!7e2!8j1739701800!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "35 мин",
             "transport_type": "Пешком/Метро",
             "hours": "09:00-17:00",
             "ticket": 630.0,
-            "site": "Information for Visitors >> General Information :: National Museum of Nature and Science,Tokyo"
+            "site": "https://www.kahaku.go.jp/english/userguide/access/index.html",
+            "site_label": "Information for Visitors >> General Information :: National Museum of Nature and Science,Tokyo"
           },
           {
             "name": "Ueno park",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Akihabara",
             "time": null,
-            "map": "откуда: Парк Уэно; куда: Akihabara Electric Town – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%9F%D0%B0%D1%80%D0%BA+%D0%A3%D1%8D%D0%BD%D0%BE,+Uenokoen,+Taito+City,+Tokyo+110-0007,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Akihabara+Electric+Town,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.7062053,139.7627352,15z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60188e9b45906ac3:0xb1cb3623124e645a!2m2!1d139.7734312!2d35.7147557!1m5!1m1!1s0x60188c1d829dd5cd:0x772f5995da208987!2m2!1d139.7713703!2d35.6996473!2m3!6e0!7e2!8j1739721600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 150.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kanda Shrine",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 0.0,
             "transport_time": "10 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Vowz Bar",
             "time": "Покупка на месте",
-            "map": "откуда: Kanda Myoujin Shrine; куда: Vowz Bar – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kanda+Myoujin+Shrine,+2+Chome-16-2+Sotokanda,+Chiyoda+City,+Tokyo+101-0021,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Vowz+Bar,+AG%E3%83%93%E3%83%AB+%EF%BC%92%EF%BC%A6+6-42+Arakicho,+Shinjuku+City,+Tokyo+160-0007,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6881618,139.7237047,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60188c1ecc161bed:0xf397e4b6bf417c8b!2m2!1d139.7678943!2d35.7020186!1m5!1m1!1s0x60188cf263a008c9:0x311b3d949dac6775!2m2!1d139.7225642!2d35.689368!2m3!6e0!7e2!8j1739734285!5i2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 210.0,
             "transport_time": "35 мин",
             "transport_type": "Пешком/Метро",
             "hours": "19:00-01:00",
             "ticket": 3000.0,
-            "site": "東京・四谷 坊主バー"
+            "site": "https://vowz-bar.jp/",
+            "site_label": "東京・四谷 坊主バー"
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "Открыть маршрут",
+            "map": null,
             "transport_cost": 180.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1493,57 +1616,62 @@
           {
             "name": "Starbucks Reserve Roastery + Meguro River",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Starbucks Reserve Roastery Tokyo – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Starbucks+Reserve+Roastery+Tokyo,+2+Chome-19-23+Aobadai,+Meguro+City,+Tokyo+153-0042,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.661243,139.6976004,14z/am=t/data=!3m1!5s0x60188b52e6dc2887:0xdaee600c80e3d0fa!4m19!4m18!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x60188b88b7d8f7ab:0x2133080e9923eaac!2m2!1d139.6925907!2d35.6492642!2m3!6e0!7e2!8j1744178400!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 320.0,
             "transport_time": "40 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Ghibli museum",
             "time": "Не успела",
-            "map": "откуда: Starbucks Reserve Roastery Tokyo; куда: Музей Гибли – Google Карты",
+            "map": "https://www.google.com/maps/dir/Starbucks+Reserve+Roastery+Tokyo,+2+Chome-19-23+Aobadai,+Meguro+City,+Tokyo+153-0042,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%93%D0%B8%D0%B1%D0%BB%D0%B8,+1+Chome-1-83+Shimorenjaku,+Mitaka,+Tokyo+181-0013,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6759595,139.5942251,13z/am=t/data=!3m1!5s0x60188b52e6dc2887:0xdaee600c80e3d0fa!4m18!4m17!1m5!1m1!1s0x60188b88b7d8f7ab:0x2133080e9923eaac!2m2!1d139.6925907!2d35.6492642!1m5!1m1!1s0x6018ee34e5038c2d:0x4de155903f849205!2m2!1d139.5704317!2d35.696238!2m3!6e0!7e2!8j1744187400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 470.0,
             "transport_time": "1 час",
             "transport_type": "Пешком/Метро/Автобус",
             "hours": "10:00-18:00",
             "ticket": 1000.0,
-            "site": "Top"
+            "site": "https://l-tike.com/st1/ghibli-en/sitetop",
+            "site_label": "Top"
           },
           {
             "name": "Yotsuya Station",
             "time": null,
-            "map": "откуда: Музей Гибли; куда: Yotsuya Station – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%93%D0%B8%D0%B1%D0%BB%D0%B8,+1+Chome-1-83+Shimorenjaku,+Mitaka,+Tokyo+181-0013,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Yotsuya+Station,+1+%D0%A2%D1%91%D0%BC%D0%B5+%D0%99%D0%BE%D1%86%D1%83%D1%8F,+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6930796,139.5627829,12z/am=t/data=!4m18!4m17!1m5!1m1!1s0x6018ee34e5038c2d:0x4de155903f849205!2m2!1d139.5704317!2d35.696238!1m5!1m1!1s0x60188c8a228fd68d:0x5400c08a1242a4f0!2m2!1d139.7302183!2d35.6861525!2m3!6e0!7e2!8j1744203600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 320.0,
             "transport_time": "40 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Suga Shrine Steps",
             "time": null,
-            "map": "откуда: Yotsuya Station; куда: Suga Shrine – Google Карты",
+            "map": "https://www.google.com/maps/dir/Yotsuya+Station,+1+%D0%A2%D1%91%D0%BC%D0%B5+%D0%99%D0%BE%D1%86%D1%83%D1%8F,+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Suga+Shrine,+5+%D0%A1%D1%83%D0%B3%D0%B0%D1%82%D1%91,+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6861268,139.7202105,16z/am=t/data=!3m1!5s0x6018ee34ef3b3c69:0x5694d16b01f4ecd8!4m19!4m18!1m5!1m1!1s0x60188c8a228fd68d:0x5400c08a1242a4f0!2m2!1d139.7302183!2d35.6861525!1m5!1m1!1s0x6018ece406d552f1:0x440be600a9c6807c!2m2!1d139.7224783!2d35.6852851!2m3!6e0!7e2!8j1744209000!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Shinanomachi Footbridge",
             "time": null,
-            "map": "откуда: Suga Shrine; куда: Shinanomachi Footbridge – Google Карты",
+            "map": "https://www.google.com/maps/dir/Suga+Shrine,+5+%D0%A1%D1%83%D0%B3%D0%B0%D1%82%D1%91,+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Shinanomachi+Footbridge,+14+%D0%9A%D0%B0%D1%81%D1%83%D0%BC%D0%B8%D0%B3%D0%B0%D0%BE%D0%BA%D0%B0%D0%BC%D0%B0%D1%82%D0%B8,+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6823975,139.7185201,17z/am=t/data=!3m1!5s0x6018ee34ef3b3c69:0x5694d16b01f4ecd8!4m18!4m17!1m5!1m1!1s0x6018ece406d552f1:0x440be600a9c6807c!2m2!1d139.7224783!2d35.6852851!1m5!1m1!1s0x60188c91a50ca261:0xca5f3db4ae43f43!2m2!1d139.7196838!2d35.6794966!2m3!6e0!7e2!8j1744209000!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Свободный день на шоппинг",
@@ -1554,7 +1682,8 @@
             "transport_type": null,
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Akasaka",
@@ -1565,7 +1694,8 @@
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1575,79 +1705,86 @@
           {
             "name": "Shinjuku station",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Синдзюку – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Shinjuku+Station,+3+Chome-38+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6774965,139.6883952,14z/am=t/data=!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x60188cd0d6b1ba1f:0x1c32a1f1ecacfdd5!2m2!1d139.7005713!2d35.6896067!2m3!6e0!7e2!8j1744266600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": 1640.0,
-            "site": "Enoshima-Kamakura Freepass - Odakyu Railway: Connecting Shinjuku, Hakone and Enoshima"
+            "site": "https://www.odakyu.jp/english/passes/enoshima_kamakura/",
+            "site_label": "Enoshima-Kamakura Freepass - Odakyu Railway: Connecting Shinjuku, Hakone and Enoshima"
           },
           {
             "name": "Sasuke Inari shrine",
             "time": null,
-            "map": "откуда: Синдзюку; куда: Sasuke Inari Shrine – Google Карты",
+            "map": "https://www.google.com/maps/dir/Shinjuku+Station,+3+Chome-38+%D0%A1%D0%B8%D0%BD%D0%B4%D0%B7%D1%8E%D0%BA%D1%83,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Sasuke+Inari+Shrine,+2+%D0%A2%D1%91%D0%BC%D0%B5-22+%D0%A1%D0%B0%D1%81%D1%83%D0%BA%D0%B5,+%D0%9A%D0%B0%D0%BC%D0%B0%D0%BA%D1%83%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.5074072,139.4880073,11z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188cd0d6b1ba1f:0x1c32a1f1ecacfdd5!2m2!1d139.7005713!2d35.6896067!1m5!1m1!1s0x60184591ef6bab51:0x37643097ccc271f5!2m2!1d139.5389441!2d35.324344!2m3!6e0!7e2!8j1744268400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 950.0,
             "transport_time": "1 час 30 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kotoku-in Temple",
             "time": "Покупка на месте",
-            "map": "откуда: Sasuke Inari Shrine; куда: Kotoku-in – Google Карты",
+            "map": "https://www.google.com/maps/dir/Sasuke+Inari+Shrine,+2+%D0%A2%D1%91%D0%BC%D0%B5-22+%D0%A1%D0%B0%D1%81%D1%83%D0%BA%D0%B5,+%D0%9A%D0%B0%D0%BC%D0%B0%D0%BA%D1%83%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kotoku-in,+%E9%AB%98%E5%BE%B3%E9%99%A2+4+%D0%A2%D1%91%D0%BC%D0%B5-2+%D0%A5%D0%B0%D1%81%D0%B5,+%D0%9A%D0%B0%D0%BC%D0%B0%D0%BA%D1%83%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.319745,139.5339697,16z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60184591ef6bab51:0x37643097ccc271f5!2m2!1d139.5389441!2d35.324344!1m5!1m1!1s0x601845f2df49bc05:0x1ec393b02d6bef4c!2m2!1d139.5356758!2d35.3168228!2m3!6e0!7e2!8j1744268400!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "30 мин",
             "transport_type": "Пешком",
             "hours": "08:00-18:45",
             "ticket": 300.0,
-            "site": "Kotoku-in"
+            "site": "https://www.kotoku-in.jp/en/",
+            "site_label": "Kotoku-in"
           },
           {
             "name": "Hase-dera",
             "time": "Покупка на месте",
-            "map": "откуда: Kotoku-in; куда: Хаседера – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kotoku-in,+%E9%AB%98%E5%BE%B3%E9%99%A2+4+%D0%A2%D1%91%D0%BC%D0%B5-2+%D0%A5%D0%B0%D1%81%D0%B5,+%D0%9A%D0%B0%D0%BC%D0%B0%D0%BA%D1%83%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%A5%D0%B0%D1%81%D0%B5%D0%B4%D0%B5%D1%80%D0%B0,+3+Chome-11-2+Hase,+Kamakura,+Kanagawa+248-0016,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.3120238,139.5331209,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x601845f2df49bc05:0x1ec393b02d6bef4c!2m2!1d139.5356758!2d35.3168228!1m5!1m1!1s0x601845f4077127d5:0x57eb6150baf7add1!2m2!1d139.5330634!2d35.3124645!2m3!6e0!7e2!8j1744268400!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": "08:00-18:30",
             "ticket": 400.0,
-            "site": "ADMISSION & ACCESS | KAMAKURA HASEDERA"
+            "site": "https://www.hasedera.jp/en/guide/",
+            "site_label": "ADMISSION & ACCESS | KAMAKURA HASEDERA"
           },
           {
             "name": "Kamakurakoko-Mae Station",
             "time": null,
-            "map": "откуда: Хаседера; куда: Kamakurakōkō-Mae Station – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%A5%D0%B0%D1%81%D0%B5%D0%B4%D0%B5%D1%80%D0%B0,+3+Chome-11-2+Hase,+Kamakura,+Kanagawa+248-0016,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kamakurak%C5%8Dk%C5%8D-Mae+Station,+1+%D0%A2%D1%91%D0%BC%D0%B5-1+%D0%9A%D0%BE%D1%81%D0%B8%D0%B3%D0%BE%D1%8D,+%D0%9A%D0%B0%D0%BC%D0%B0%D0%BA%D1%83%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.3083732,139.5080937,15z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x601845f4077127d5:0x57eb6150baf7add1!2m2!1d139.5330634!2d35.3124645!1m5!1m1!1s0x60184f16e67c1621:0x1941385abcdafc7d!2m2!1d139.5005569!2d35.3067242!2m3!6e0!7e2!8j1744284600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 220.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Enoshima Island",
             "time": null,
-            "map": "откуда: Kamakurakōkō-Mae Station; куда: Эносима – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kamakurak%C5%8Dk%C5%8D-Mae+Station,+1+%D0%A2%D1%91%D0%BC%D0%B5-1+%D0%9A%D0%BE%D1%81%D0%B8%D0%B3%D0%BE%D1%8D,+%D0%9A%D0%B0%D0%BC%D0%B0%D0%BA%D1%83%D1%80%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%AD%D0%BD%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%81%D0%B0%D0%B2%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0+251-0036,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.3052528,139.4804601,15z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m19!4m18!1m5!1m1!1s0x60184f16e67c1621:0x1941385abcdafc7d!2m2!1d139.5005569!2d35.3067242!1m5!1m1!1s0x60184ee6a0890aa5:0x4fe5988514a5aec!2m2!1d139.4809269!2d35.2990992!2m3!6e0!7e2!8j1744284600!3e3!5i2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 200.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "откуда: Эносима; куда: First Cabin Akasaka – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%AD%D0%BD%D0%BE%D1%81%D0%B8%D0%BC%D0%B0,+%D0%A4%D1%83%D0%B4%D0%B7%D0%B8%D1%81%D0%B0%D0%B2%D0%B0,+%D0%9A%D0%B0%D0%BD%D0%B0%D0%B3%D0%B0%D0%B2%D0%B0+251-0036,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/First+Cabin+Akasaka,+%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E8%B5%A4%E5%9D%82%E3%83%93%E3%83%AB+3+%D0%A2%D1%91%D0%BC%D0%B5-13+%D0%90%D0%BA%D0%B0%D1%81%D0%B0%D0%BA%D0%B0,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.4862452,139.4319602,11z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60184ee6a0890aa5:0x4fe5988514a5aec!2m2!1d139.4809269!2d35.2990992!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!2m3!6e0!7e2!8j1744311600!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 830.0,
             "transport_time": "1 час 30 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1657,57 +1794,62 @@
           {
             "name": "Shingashi Riverbank Cherry Blossoms",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Shingashi Riverbank Cherry Blossoms – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E8%B5%A4%E5%9D%82%E3%83%93%E3%83%AB+3+%D0%A2%D1%91%D0%BC%D0%B5-13+%D0%90%D0%BA%D0%B0%D1%81%D0%B0%D0%BA%D0%B0,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Shingashi+Riverbank+Cherry+Blossoms,+%D0%A5%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D1%82%D1%91,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D0%BE%D1%8D,+%D0%A1%D0%B0%D0%B9%D1%82%D0%B0%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.910628,139.47382,13.5z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x6018da89b88f51c9:0x7cd9858bcca7781e!2m2!1d139.4886272!2d35.9281815!2m3!6e0!7e2!8j1744354800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 840.0,
             "transport_time": "1 час 30 мин",
             "transport_type": "Пешком/Метро/Автобус",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Kurazukuri no Machinami",
             "time": null,
-            "map": "откуда: Shingashi Riverbank Cherry Blossoms; куда: Kurazukuri no Machinami / Warehouse District – Google Карты",
+            "map": "https://www.google.com/maps/dir/Shingashi+Riverbank+Cherry+Blossoms,+%D0%A5%D0%B8%D0%BA%D0%B0%D0%B2%D0%B0%D1%82%D1%91,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D0%BE%D1%8D,+%D0%A1%D0%B0%D0%B9%D1%82%D0%B0%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Kurazukuri+no+Machinami+%2F+Warehouse+District,+%D0%A1%D0%B0%D0%B9%D0%B2%D0%B0%D0%B9%D1%82%D1%91,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D0%BE%D1%8D,+%D0%A1%D0%B0%D0%B9%D1%82%D0%B0%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.9257925,139.4832231,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x6018da89b88f51c9:0x7cd9858bcca7781e!2m2!1d139.4886272!2d35.9281815!1m5!1m1!1s0x6018da618c4167fb:0x27f2920eda13c433!2m2!1d139.4829325!2d35.923527!2m3!6e0!7e2!8j1744362000!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Wood Works Kawagoe",
             "time": "не работает ссылка для брони, поищу",
-            "map": "откуда: Kurazukuri no Machinami / Warehouse District; куда: Wood Works Kawagoe – Google Карты",
+            "map": "https://www.google.com/maps/dir/Kurazukuri+no+Machinami+%2F+Warehouse+District,+%D0%A1%D0%B0%D0%B9%D0%B2%D0%B0%D0%B9%D1%82%D1%91,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D0%BE%D1%8D,+%D0%A1%D0%B0%D0%B9%D1%82%D0%B0%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Wood+Works+Kawagoe,+%EF%BC%91%EF%BC%94+%D0%A1%D0%B0%D0%B9%D0%B2%D0%B0%D0%B9%D1%82%D1%91,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D0%BE%D1%8D,+%D0%A1%D0%B0%D0%B9%D1%82%D0%B0%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.9234541,139.4806477,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x6018da618c4167fb:0x27f2920eda13c433!2m2!1d139.4829325!2d35.923527!1m5!1m1!1s0x6018dbcf11a392df:0x223c07536dff5798!2m2!1d139.483571!2d35.9233787!2m3!6e0!7e2!8j1744362000!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": "12:30-18:30",
             "ticket": 4000.0,
-            "site": "Karaki woodworking | Chopstick making workshop"
+            "site": "https://karakimokkou.com/",
+            "site_label": "Karaki woodworking | Chopstick making workshop"
           },
           {
             "name": "500 Rakan",
             "time": null,
-            "map": "откуда: Wood Works Kawagoe; куда: 500 Rakan – Google Карты",
+            "map": "https://www.google.com/maps/dir/Wood+Works+Kawagoe,+%EF%BC%91%EF%BC%94+%D0%A1%D0%B0%D0%B9%D0%B2%D0%B0%D0%B9%D1%82%D1%91,+%D0%9A%D0%B0%D0%B2%D0%B0%D0%B3%D0%BE%D1%8D,+%D0%A1%D0%B0%D0%B9%D1%82%D0%B0%D0%BC%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/500+Rakan,+1+Chome-%EF%BC%92%EF%BC%90-1+Kosenbamachi,+Kawagoe,+Saitama+350-0036,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.9206516,139.4841129,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x6018dbcf11a392df:0x223c07536dff5798!2m2!1d139.483571!2d35.9233787!1m5!1m1!1s0x6018daf67650773b:0x5d63c984e38c0de9!2m2!1d139.4898073!2d35.9179949!2m3!6e0!7e2!8j1744376400!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "откуда: 500 Rakan; куда: First Cabin Akasaka – Google Карты",
+            "map": "https://www.google.com/maps/dir/500+Rakan,+1+Chome-%EF%BC%92%EF%BC%90-1+Kosenbamachi,+Kawagoe,+Saitama+350-0036,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.7902204,139.4254082,11z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m19!4m18!1m5!1m1!1s0x6018daf67650773b:0x5d63c984e38c0de9!2m2!1d139.4898073!2d35.9179949!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!2m3!6e0!7e2!8j1744396200!3e3!5i1!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 630.0,
             "transport_time": "1 час 40 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1717,91 +1859,99 @@
           {
             "name": "Телевизионная башня Токио",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Телевизионная башня Токио – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+3+Chome-13-7+Akasaka,+Minato+City,+Tokyo+107-0052,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D0%B7%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F+%D0%B1%D0%B0%D1%88%D0%BD%D1%8F+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+Tokyo+Tower,+4+%D0%A2%D1%91%D0%BC%D0%B5-2+%D0%A1%D0%B8%D0%B1%D0%B0%D0%BA%D0%BE%D1%8D%D0%BD,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6659036,139.7306416,15z/am=t/data=!3m2!4b1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x60188bbd9009ec09:0x481a93f0d2a409dd!2m2!1d139.7454329!2d35.6585805!2m3!6e0!7e2!8j1744441200!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "35 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Дзодзёдзи",
             "time": null,
-            "map": "откуда: Телевизионная башня Токио; куда: Дзодзёдзи – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%A2%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D0%B7%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F+%D0%B1%D0%B0%D1%88%D0%BD%D1%8F+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+Tokyo+Tower,+4+%D0%A2%D1%91%D0%BC%D0%B5-2+%D0%A1%D0%B8%D0%B1%D0%B0%D0%BA%D0%BE%D1%8D%D0%BD,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/%D0%94%D0%B7%D0%BE%D0%B4%D0%B7%D1%91%D0%B4%D0%B7%D0%B8,+4+%D0%A2%D1%91%D0%BC%D0%B5-7+%D0%A1%D0%B8%D0%B1%D0%B0%D0%BA%D0%BE%D1%8D%D0%BD,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6580303,139.745904,18z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188bbd9009ec09:0x481a93f0d2a409dd!2m2!1d139.7454329!2d35.6585805!1m5!1m1!1s0x60188bbe91676c0b:0x88a4a86ddb1dbd24!2m2!1d139.7482928!2d35.657479!2m3!6e0!7e2!8j1744441200!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "teamLab Borderless",
             "time": "9:00-9:30",
-            "map": "откуда: Дзодзёдзи; куда: teamLab Borderless: MORI Building DIGITAL ART MUSEUM – Google Карты",
+            "map": "https://www.google.com/maps/dir/%D0%94%D0%B7%D0%BE%D0%B4%D0%B7%D1%91%D0%B4%D0%B7%D0%B8,+4+%D0%A2%D1%91%D0%BC%D0%B5-7+%D0%A1%D0%B8%D0%B1%D0%B0%D0%BA%D0%BE%D1%8D%D0%BD,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/teamLab+Borderless:+MORI+Building+DIGITAL+ART+MUSEUM,+Azabudai+Hills+Garden+Plaza+B,+B1+5+Chome-%EF%BC%99+Toranomon,+Minato+City,+Tokyo+106-0041,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6598964,139.7406979,16z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188bbe91676c0b:0x88a4a86ddb1dbd24!2m2!1d139.7482928!2d35.657479!1m5!1m1!1s0x601889fad49a9443:0x5831aba3288d2651!2m2!1d139.7432671!2d35.6620689!2m3!6e0!7e2!8j1744441200!3e2!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": "09:00-21:00",
             "ticket": 5600.0,
-            "site": "Official Ticket Store | teamLab Borderless: MORI Building DIGITAL ART MUSEUM, Azabudai Hills, Tokyo, Japan"
+            "site": "https://borderless-azabudai.ticket.teamlab.art/?_gl=1*ltnejb*_gcl_au*ODE3OTYwODg4LjE3MzgxNjQxNDc.*_ga*Mjc3OTgzMjM4LjE3MzgxNjQxNDg.*_ga_E4JDR7KSJ2*MTczOTcyODczNi4zLjAuMTczOTcyODc0MC41Ni4wLjA.",
+            "site_label": "Official Ticket Store | teamLab Borderless: MORI Building DIGITAL ART MUSEUM, Azabudai Hills, Tokyo, Japan"
           },
           {
             "name": "Ginza/Chuo Dori",
             "time": null,
-            "map": "откуда: teamLab Borderless: MORI Building DIGITAL ART MUSEUM; куда: Chuo-dori Avenue – Google Карты",
+            "map": "https://www.google.com/maps/dir/teamLab+Borderless:+MORI+Building+DIGITAL+ART+MUSEUM,+Azabudai+Hills+Garden+Plaza+B,+B1+5+Chome-%EF%BC%99+Toranomon,+Minato+City,+Tokyo+106-0041,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Chuo-dori+Ave.,+Tokyo,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6695113,139.7438374,15z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x601889fad49a9443:0x5831aba3288d2651!2m2!1d139.7432671!2d35.6620689!1m5!1m1!1s0x60188c0121986697:0x56f8ac65d6c007e9!2m2!1d139.7649875!2d35.6711761!2m3!6e0!7e2!8j1744459200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "UNIQLO store",
             "time": null,
-            "map": "откуда: Chuo-dori Avenue; куда: Uniqlo Ginza Flagship Store – Google Карты",
+            "map": "https://www.google.com/maps/dir/Chuo-dori+Ave.,+Tokyo,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Uniqlo+Ginza+Flagship+Store,+6+Chome-9-5+%D0%93%D0%B8%D0%BD%D0%B4%D0%B7%D0%B0,+%D0%A2%D1%8E%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6706333,139.7616531,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188c0121986697:0x56f8ac65d6c007e9!2m2!1d139.7649875!2d35.6711761!1m5!1m1!1s0x60188be66e07d36f:0x45e536859ebe18d3!2m2!1d139.7634686!2d35.6702448!2m3!6e0!7e2!8j1744459200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "Art Aquarium museum",
             "time": "17:00-17:30",
-            "tag": "17:00-17:30",
-            "map": "откуда: Uniqlo Ginza Flagship Store; куда: ART AQUARIUM MUSEUM – Google Карты",
+            "map": "https://www.google.com/maps/dir/Uniqlo+Ginza+Flagship+Store,+6+Chome-9-5+%D0%93%D0%B8%D0%BD%D0%B4%D0%B7%D0%B0,+%D0%A2%D1%8E%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/ART+AQUARIUM+MUSEUM,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%E3%80%92104-8212+Tokyo,+Chuo+City,+Ginza,+4+Chome%E2%88%926%E2%88%9216+%E4%B8%89%E8%B6%8A%E6%96%B0%E9%A4%A8+9%E9%9A%8E+9%E9%9A%8E%E5%85%A5%E5%A0%B4%E5%8F%A3/@35.6708045,139.7620303,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188be66e07d36f:0x45e536859ebe18d3!2m2!1d139.7634686!2d35.6702448!1m5!1m1!1s0x6018895d1e5245e9:0xd9bdf0c3acccea0e!2m2!1d139.7657375!2d35.6713698!2m3!6e0!7e2!8j1744459200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": "10:00-19:00",
             "ticket": 2500.0,
-            "site": "Art Aquarium Museum Official Ticket"
+            "site": "https://ticket.artaquarium.jp/en/",
+            "site_label": "Art Aquarium Museum Official Ticket",
+            "tag": "17:00-17:30"
           },
           {
             "name": "MUJI Ginza Flagship Store",
             "time": null,
-            "map": "откуда: ART AQUARIUM MUSEUM; куда: MUJI - Ginza Flagship Store – Google Карты",
+            "map": "https://www.google.com/maps/dir/ART+AQUARIUM+MUSEUM,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F,+%E3%80%92104-8212+Tokyo,+Chuo+City,+Ginza,+4+Chome%E2%88%926%E2%88%9216+%E4%B8%89%E8%B6%8A%E6%96%B0%E9%A4%A8+9%E9%9A%8E+9%E9%9A%8E%E5%85%A5%E5%A0%B4%E5%8F%A3/MUJI+-+Ginza+Flagship+Store,+3+Chome-3-5+Ginza,+Chuo+City,+Tokyo+104-0061,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6723773,139.7628704,17z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x6018895d1e5245e9:0xd9bdf0c3acccea0e!2m2!1d139.7657375!2d35.6713698!1m5!1m1!1s0x60188baa38aecf7d:0xab5a3452172b5f9!2m2!1d139.7653677!2d35.673214!2m3!6e0!7e2!8j1744459200!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 0.0,
             "transport_time": "15 мин",
             "transport_type": "Пешком",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           },
           {
             "name": "First Cabin Akasaka",
             "time": null,
-            "map": "откуда: MUJI - Ginza Flagship Store; куда: First Cabin Akasaka – Google Карты",
+            "map": "https://www.google.com/maps/dir/MUJI+-+Ginza+Flagship+Store,+3+Chome-3-5+Ginza,+Chuo+City,+Tokyo+104-0061,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/First+Cabin+Akasaka,+%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E8%B5%A4%E5%9D%82%E3%83%93%E3%83%AB+3+%D0%A2%D1%91%D0%BC%D0%B5-13+%D0%90%D0%BA%D0%B0%D1%81%D0%B0%D0%BA%D0%B0,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.6718803,139.7407519,15z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188baa38aecf7d:0xab5a3452172b5f9!2m2!1d139.7653677!2d35.673214!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!2m3!6e0!7e2!8j1744479000!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 180.0,
             "transport_time": "20 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       },
@@ -1811,13 +1961,14 @@
           {
             "name": "Naripa AP",
             "time": null,
-            "map": "откуда: First Cabin Akasaka; куда: Нарита – Google Карты",
+            "map": "https://www.google.com/maps/dir/First+Cabin+Akasaka,+%E3%82%B5%E3%82%AF%E3%82%BB%E3%82%B9%E8%B5%A4%E5%9D%82%E3%83%93%E3%83%AB+3+%D0%A2%D1%91%D0%BC%D0%B5-13+%D0%90%D0%BA%D0%B0%D1%81%D0%B0%D0%BA%D0%B0,+%D0%9C%D0%B8%D0%BD%D0%B0%D1%82%D0%BE,+%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/Narita+Airport+(NRT),+1-1+Furugome,+%D0%9D%D0%B0%D1%80%D0%B8%D1%82%D0%B0,+%D0%A7%D0%B8%D0%B1%D0%B0,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@35.7358351,139.7321018,10z/am=t/data=!3m1!5s0x60188b8736ab8219:0xdd5ad377507ee400!4m18!4m17!1m5!1m1!1s0x60188b8733ffbdaf:0xc5bd7f8d5d283c81!2m2!1d139.7374354!2d35.6730268!1m5!1m1!1s0x6022f379d1bd3757:0xd56e29a162771aa1!2m2!1d140.3843215!2d35.770178!2m3!6e0!7e2!8j1744534800!3e3!5m1!1e2?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D",
             "transport_cost": 2790.0,
             "transport_time": "1 час 30 мин",
             "transport_type": "Пешком/Метро",
             "hours": null,
             "ticket": null,
-            "site": null
+            "site": null,
+            "site_label": null
           }
         ]
       }
@@ -1826,6 +1977,7 @@
       {
         "city_range": "Фукуока с 16 по 21 марта",
         "name": "montan HAKATA",
+        "link": "https://www.booking.com/hotel/jp/po-montan-hakata-the-real-heart-of-fukuoka.ru.html?label=gen173nr-1BCAEoggI46AdIM1gEaO4BiAEBmAEhuAEXyAEM2AEB6AEBiAIBqAIDuAKm0_K8BsACAdICJGU5Mjk4ZWYxLTQ0M2EtNDgzZi1hNDU2LTg0NWI3MDBjNDNmM9gCBeACAQ&sid=aed33bf97a915fecc35b9db57fae1204&aid=304142&ucfs=1&checkin=2025-03-17&checkout=2025-03-21&dest_id=900047908&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D80%3Breview_score%3D90%3Boos%3D1%3Bht_id%3D204%3Bprice%3DUSD-min-100-1&matching_block_id=0_0_1_0_0&atlas_src=sr_iw_title",
         "link_text": "montan HAKATA, Фукуока (актуальные цены 2025 года)",
         "price": 261.0,
         "meal": "нету",
@@ -1834,6 +1986,7 @@
       {
         "city_range": "Хиросима с 21 по 23 марта",
         "name": "Sejour Inn Capsule",
+        "link": "https://www.booking.com/hotel/jp/sejour-inn-capsule.ru.html?label=gen173nr-1BCAEoggI46AdIM1gEaO4BiAEBmAEhuAEXyAEM2AEB6AEBiAIBqAIDuAKm0_K8BsACAdICJGU5Mjk4ZWYxLTQ0M2EtNDgzZi1hNDU2LTg0NWI3MDBjNDNmM9gCBeACAQ&sid=aed33bf97a915fecc35b9db57fae1204&aid=304142&ucfs=1&checkin=2025-03-21&checkout=2025-03-23&dest_id=-229436&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D90%3Breview_score%3D80%3Bprice%3DUSD-min-150-2%3Boos%3D1&matching_block_id=220385901_355930953_0_0_0&atlas_src=sr_iw_title",
         "link_text": "Sejour Inn Capsule, Хиросима (актуальные цены 2025 года)",
         "price": 60.0,
         "meal": "нету",
@@ -1842,14 +1995,28 @@
       {
         "city_range": "Курашики с 23 по 24 марта",
         "name": "Green Rich Hotel Kurashiki Ekimae",
+        "link": "https://www.booking.com/hotel/jp/green-rich-hoel-kurashiki-ekimae.ru.html?label=gen173nr-1BCAEoggI46AdIM1gEaO4BiAEBmAEhuAEXyAEM2AEB6AEBiAIBqAIDuAKm0_K8BsACAdICJGU5Mjk4ZWYxLTQ0M2EtNDgzZi1hNDU2LTg0NWI3MDBjNDNmM9gCBeACAQ&sid=aed33bf97a915fecc35b9db57fae1204&aid=304142&ucfs=1&checkin=2025-03-23&checkout=2025-03-24&dest_id=-234898&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D80%3Breview_score%3D90%3Boos%3D1&matching_block_id=531740501_187850016_1_2_0&atlas_src=sr_iw_title",
         "link_text": "Green Rich Hotel Kurashiki Ekimae (Artificial hot spring Futamata Yunohana), Курасики (актуальные цены 2025 года)",
         "price": 52.0,
         "meal": "нету",
         "note": "есть своя баня"
       },
       {
+        "city_range": "Курашики с 23 по 24 марта",
+        "name": "Roiyarupakuhoterucang Fu",
+        "link": "https://www.booking.com/hotel/jp/roiyarupakuhoterucang-fu.ru.html?label=gen173nr-1BCAEoggI46AdIM1gEaO4BiAEBmAEhuAEXyAEM2AEB6AEBiAIBqAIDuAKm0_K8BsACAdICJGU5Mjk4ZWYxLTQ0M2EtNDgzZi1hNDU2LTg0NWI3MDBjNDNmM9gCBeACAQ&sid=aed33bf97a915fecc35b9db57fae1204&aid=304142&ucfs=1&checkin=2025-03-23&checkout=2025-03-24&dest_id=-234898&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D80%3Breview_score%3D90%3Boos%3D1&matching_block_id=660819009_333290352_1_2_0&atlas_src=sr_iw_title",
+        "is_alt": true
+      },
+      {
+        "city_range": "Курашики с 23 по 24 марта",
+        "name": "Alpha One Kurashiki",
+        "link": "https://www.booking.com/hotel/jp/alpha-one-kurashiki.ru.html?label=gen173nr-1BCAEoggI46AdIM1gEaO4BiAEBmAEhuAEXyAEM2AEB6AEBiAIBqAIDuAKm0_K8BsACAdICJGU5Mjk4ZWYxLTQ0M2EtNDgzZi1hNDU2LTg0NWI3MDBjNDNmM9gCBeACAQ&sid=aed33bf97a915fecc35b9db57fae1204&aid=304142&ucfs=1&checkin=2025-03-23&checkout=2025-03-24&dest_id=-234898&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D80%3Breview_score%3D90%3Boos%3D1&matching_block_id=1129133403_385553343_0_2_0&atlas_src=sr_iw_title",
+        "is_alt": true
+      },
+      {
         "city_range": "Осака с 24 по 27 марта",
         "name": "First Cabin Nishi Umeda",
+        "link": "https://www.booking.com/hotel/jp/huasutokiyabinxi-mei-tian.ru.html?label=enxl-edge-ntp-topsites-curate-ana&sid=ba32b894fbdcbde8ba065e3d1bd856c8&aid=1535067&ucfs=1&checkin=2025-03-24&checkout=2025-03-27&dest_id=-240905&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D80%3Breview_score%3D90%3Boos%3D1%3Bprice%3DUSD-min-50-1&matching_block_id=875777503_395121064_1_2_0&atlas_src=sr_iw_title",
         "link_text": "First Cabin Nishi Umeda, Осака (актуальные цены 2025 года)",
         "price": 100.0,
         "meal": "нету",
@@ -1858,6 +2025,7 @@
       {
         "city_range": "Нара с 27 марта по 1 апреля",
         "name": "Nara Guesthouse Kamunabi",
+        "link": "https://www.booking.com/hotel/jp/kamunabi.html?ssne=%D0%9D%D0%B0%D1%80%D0%B0&ssne_untouched=%D0%9D%D0%B0%D1%80%D0%B0&highlighted_hotels=1978298&ss=%D0%9D%D0%B0%D1%80%D0%B0&dest_id=-238469&dest_type=city&hp_avform=1&origin=hp&do_availability_check=1&label=enxl-edge-ntp-topsites-curate-ana&sid=ba32b894fbdcbde8ba065e3d1bd856c8&aid=1535067&lang=ru&sb=1&src_elem=sb&src=hotel&checkin=2025-03-27&checkout=2025-04-01&group_adults=1&no_rooms=1&group_children=0",
         "link_text": "Nara Guesthouse Kamunabi, Нара (актуальные цены 2025 года)",
         "price": 113.0,
         "meal": "нету",
@@ -1866,6 +2034,7 @@
       {
         "city_range": "Хаконе с 1 апреля по 3 апреля",
         "name": "Onsen Guest House Tsutaya",
+        "link": "https://www.booking.com/hotel/jp/sokokurawen-quan-tutayalu-guan.ru.html?label=enxl-edge-ntp-topsites-curate-ana&sid=ba32b894fbdcbde8ba065e3d1bd856c8&aid=1535067&ucfs=1&checkin=2025-04-01&checkout=2025-04-03&dest_id=-228233&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=review_score%3D80%3Breview_score%3D90%3Boos%3D1&matching_block_id=561713202_377203064_0_0_0&atlas_src=sr_iw_title",
         "link_text": "Onsen Guest House Tsutaya, Хаконе (актуальные цены 2025 года)",
         "price": 123.0,
         "meal": "нету",
@@ -1874,6 +2043,7 @@
       {
         "city_range": "Фудзикавагутико с 3 апреля по 5 апреля",
         "name": "Hachi- Accommodation",
+        "link": "https://www.booking.com/hotel/jp/ba-hachi-accommodation.ru.html?label=enxl-edge-ntp-topsites-curate-ana&sid=ba32b894fbdcbde8ba065e3d1bd856c8&aid=1535067&ucfs=1&checkin=2025-04-03&checkout=2025-04-05&dest_id=900049907&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=oos%3D1%3Breview_score%3D80%3Breview_score%3D90%3Bprice%3DUSD-min-120-1&matching_block_id=1200139404_392285077_0_2_0&atlas_src=sr_iw_title",
         "link_text": "八-Hachi- Accommodation, Фудзикавагутико (актуальные цены 2025 года)",
         "price": 99.0,
         "meal": "нету",
@@ -1882,6 +2052,7 @@
       {
         "city_range": "Токио с 5 апреля по 13 апреля",
         "name": "First Cabin Akasaka",
+        "link": "https://www.booking.com/hotel/jp/first-cabin-akasaka.ru.html?label=enxl-edge-ntp-topsites-curate-ana&sid=ba32b894fbdcbde8ba065e3d1bd856c8&aid=1535067&ucfs=1&checkin=2025-04-05&checkout=2025-04-13&dest_id=-246227&dest_type=city&group_adults=1&no_rooms=1&group_children=0&nflt=oos%3D1%3Breview_score%3D80%3Breview_score%3D90%3Bprice%3DUSD-min-70-1&matching_block_id=166891701_106493520_0_0_0&atlas_src=sr_iw_title",
         "link_text": "First Cabin Akasaka, Токио (актуальные цены 2025 года)",
         "price": 368.0,
         "meal": "нету",
@@ -2826,315 +2997,360 @@
         "name": "Byodoin Temple",
         "price": 4.61,
         "comment": "Главная достопримечательность, входит в список ЮНЕСКО",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/%D0%91%D1%91%D0%B4%D0%BE-%D0%B8%D0%BD/@34.8892952,135.8051034,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x6001110ce0da2bab:0x608414938ffa07a4!8m2!3d34.8892908!4d135.8076783!16zL20vMDFmeHFx?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Удзи",
         "name": "Asagiri Bridge",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Asagiri+Bridge/@34.8902031,135.8068231,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x60011143a921da8d:0xc42327ef27bc6a9a!8m2!3d34.8901987!4d135.809398!16s%2Fg%2F11f555c9k5?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Удзи",
         "name": "Uji Shrine",
         "price": 0.0,
         "comment": "Объект ЮНЕСКО",
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/Uji+Shrine/@34.8910968,135.8058496,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x600111731014cfd9:0xe47629bd29c85f14!8m2!3d34.8910925!4d135.8107205!16s%2Fm%2F0pdnrh6?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Удзи",
         "name": "Daikichiyama Observation Deck",
         "price": 0.0,
         "comment": "Это смотровая площадка на холме в городе Удзи (префектура Киото), откуда открывается один из лучших панорамных видов на Удзи",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Daikichiyama+Observation+Deck/@34.8929088,135.8102625,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x60011173ec277c7d:0x2d0f2502468356b0!8m2!3d34.8929044!4d135.8128374!16s%2Fg%2F11cly_2qkh?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Удзи",
         "name": "Mimuroto-ji",
         "price": 6.58,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Mimuroto-ji/@34.9004997,135.8165883,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x600111780fcf3ac1:0xb11ed6e6546ed124!8m2!3d34.9004953!4d135.8191632!16s%2Fg%2F1234t8_t?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Удзи",
         "name": "Taihoan",
         "price": 15.8,
         "comment": "Чайный дом. Удзи находится известные матчи бренды в Японии",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Taihoan/@34.8890207,135.8061331,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x6001110d2de403a7:0x7ea0ec98990b86fe!8m2!3d34.8890163!4d135.808708!16s%2Fg%2F1w346hz_?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Удзи",
         "name": "Cormorant fishing on the Uji River",
         "price": 17.77,
         "comment": "Традиционная ночная рыбалка с птицами",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.kyoto-uji-kankou.or.jp/ukai-en.html"
       },
       {
         "city": "Киото",
         "name": "teamLab Biovortex Kyoto",
         "price": 30.28,
         "comment": "Новый Тимлаб для твоей коллекции",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.teamlab.art/e/kyoto/"
       },
       {
         "city": "Киото",
         "name": "Okazaki Shrine",
         "price": 0.0,
         "comment": "Храм посвященный кроликам",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Okazaki+Shrine/@35.0173715,135.7862185,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x600108e21740e2a9:0xc21db7b9de148653!8m2!3d35.0173671!4d135.7887934!16s%2Fg%2F120p9zjc?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Киото",
         "name": "Gion Matsuri - Yoiyama evenings on July 14th–16th",
         "price": null,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.japan-guide.com/e/e3942.html"
       },
       {
         "city": "Киото",
         "name": "Amanohashidate",
         "price": null,
         "comment": "Нужно будет потратить 1 день на поездку сюда из Киото",
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": null
       },
       {
         "city": "Киото",
         "name": "Спуск на лодке",
         "price": null,
         "comment": null,
-        "status": null
+        "status": null,
+        "site": null
       },
       {
         "city": "Такасима",
         "name": "HARIESTER tap water of the township",
         "price": 0.0,
         "comment": "Это туристическая и культурная достопримечательность в Японии, связанная с уникальным и очень чистым водопроводным/родниковым водоснабжением",
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/HARIESTER+tap+water+of+the+township/@35.3593343,136.0420171,17z/am=t/data=!3m1!4b1!4m8!3m7!1s0x60019032d48d100b:0xb3d23c66017b1c73!8m2!3d35.35933!4d136.044592!9m1!1b1!16s%2Fg%2F11b6v3rzb1?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Такасима",
         "name": "Shirahige Shrine",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Shirahige+Shrine/@35.2745468,136.0084599,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x60038c1fc9c5a4ff:0xbda2005316d07dcb!8m2!3d35.2745424!4d136.0110348!16s%2Fm%2F0h68vmj?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Такасима",
         "name": "Biwako Terrace The Main-Grand Terrace",
         "price": 26.33,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Biwako+Terrace+The+Main-Grand+Terrace/@35.2133507,135.8932431,17z/am=t/data=!3m2!4b1!5s0x6001a27addc85ec9:0x71ad621565374b65!4m6!3m5!1s0x600198a6cf19c77f:0xb6e762f65ba2b649!8m2!3d35.2133463!4d135.895818!16s%2Fg%2F1227px1z?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Такасима",
         "name": "Hata Rice Terraces",
         "price": 0.0,
         "comment": null,
-        "status": "Not sure"
+        "status": "Not sure",
+        "site": "https://www.google.com/maps/place/Hata+Rice+Terraces/@35.2949329,135.9266378,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x600197bb696645e3:0x105f6d8c10ab4acd!8m2!3d35.2949285!4d135.9292127!16s%2Fg%2F11dzx86dv3?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Такасима",
         "name": "Mangestuji Ukimidō",
         "price": 1.97,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Mangetsu-ji+Temple+Uki-mid%C5%8D+(Floating+Hall)/@35.1076767,135.8916602,13.76z/am=t/data=!4m6!3m5!1s0x600175404bc2e9d3:0x8d98ee97122ce359!8m2!3d35.1098513!4d135.9215934!16s%2Fm%2F0gmbk9h?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Хиконе",
         "name": "Hikone Castle",
         "price": 6.58,
         "comment": null,
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/%D0%97%D0%B0%D0%BC%D0%BE%D0%BA+%D0%A5%D0%B8%D0%BA%D0%BE%D0%BD%D1%8D/@35.2764564,136.2492711,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x60022b2b5dbfdbc3:0xee2a210b78298c30!8m2!3d35.276452!4d136.251846!16zL20vMDNiNXpr?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Хиконе",
         "name": "Genkyuen Garden",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Genkyuen+Garden/@35.2778944,136.2513675,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x60022b2c63d63311:0x4eb9720915f66051!8m2!3d35.27789!4d136.2539424!16s%2Fg%2F121dcww2?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Хиконе",
         "name": "Shizugatake",
         "price": 5.92,
         "comment": "Мини хайкинг перед Фудзи, есть также подъемник",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Shizugatake/@35.5060638,136.1901973,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x60018a8d961e6581:0x9de9a6cc9203f5a2!8m2!3d35.5060595!4d136.1927722!16s%2Fg%2F120m5y0c?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Хиконе",
         "name": "Hikone Harbor (паром до Chikubu Island)",
         "price": 23.04,
         "comment": "Тур на мини остров",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Chikubu+Island/@35.4232518,136.1334043,15z/data=!3m1!4b1!4m6!3m5!1s0x60018947f174c7f7:0x2843e51a7b4b31b0!8m2!3d35.4232353!4d136.143704!16s%2Fm%2F04zzq98?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Нагоя",
         "name": "Ghibli Park",
         "price": 48.05,
         "comment": "Сюда, очень сложно попасть",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Ghibli+Park/@35.1750493,137.086194,17z/data=!3m2!4b1!5s0x600366fac19993ef:0xcfad676ecbd7ba29!4m6!3m5!1s0x600367450203d0b3:0x36164b7a69c5128b!8m2!3d35.1750449!4d137.0887689!16s%2Fg%2F11jhvbqnp2?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Нагоя",
         "name": "Nagoya castle",
         "price": 3.29,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/%D0%9D%D0%B0%D0%B3%D0%BE%D0%B9%D1%81%D0%BA%D0%B8%D0%B9+%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA/@35.1847545,136.8971134,17z/data=!3m1!4b1!4m6!3m5!1s0x600376cbc7b0efb1:0xb9d3e9789275a677!8m2!3d35.1847501!4d136.8996883!16zL20vMDF6djdn?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Нагоя",
         "name": "July Grand Sumo Tournament (Nagoya Jul 12th - Jul 26th 2026)",
         "price": 115.0,
         "comment": "Примерная цена самых дешовых билетов",
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://jasumo.com/listing/july-grand-sumo-tournament-nagoya/"
       },
       {
         "city": "Сидзуока",
         "name": "Nihondaira Ropeway",
         "price": 7.44,
         "comment": null,
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/Nihondaira+Ropeway,+Shizuoka,+%D0%AF%D0%BF%D0%BE%D0%BD%D0%B8%D1%8F/@34.9688934,138.4625991,17z/am=t/data=!3m1!4b1!4m6!3m5!1s0x601a3726e10fe755:0x3cb45084209c7f1c!8m2!3d34.968889!4d138.465174!16s%2Fm%2F03ckyhj?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Сидзуока",
         "name": "Kunozan Toshogu Shrine",
         "price": 4.61,
         "comment": null,
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/%D0%9A%D1%83%D0%BD%D0%BE%D0%B4%D0%B7%D0%B0%D0%BD+%D0%A2%D0%BE%D1%81%D1%91-%D0%B3%D1%83/@34.9648304,138.4650061,17z/data=!3m1!4b1!4m6!3m5!1s0x601a37253a82e1e5:0xffcba401b35afa6d!8m2!3d34.964826!4d138.467581!16s%2Fm%2F05c46ht?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Сидзуока",
         "name": "Miho no Matsubara",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Miho+no+Matsubara+(Miho+Pine+Forest)/@34.9947578,138.5197486,17z/data=!3m1!4b1!4m6!3m5!1s0x601a3053466e6bed:0x64cf88a387b4c212!8m2!3d34.9947534!4d138.5223235!16s%2Fm%2F02q9wdk?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Сидзуока",
         "name": "Shiraito Falls",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Shiraito+Falls/@35.3128719,138.5848661,17z/data=!3m1!4b1!4m6!3m5!1s0x601bdaee0081ae4d:0x92a3a8ec3ba65a3!8m2!3d35.3128675!4d138.587441!16s%2Fm%2F05zqd7l?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Сидзуока",
         "name": "Parking lot for Mt. Fuji Great Dream Bridge",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Fujisan+Yume+No+%C5%8Chashi+Bridge/@35.1514447,138.6734869,17z/data=!3m1!4b1!4m6!3m5!1s0x601a2b0011e7937d:0x23d4ac86d1458a2e!8m2!3d35.1514403!4d138.6760618!16s%2Fg%2F11x1ckbp29?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Фудзикавагутико",
         "name": "Saiko Iyashi-no-Sato Nemba",
         "price": 3.29,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Saiko+Iyashi-no-Sato+Nemba+(Traditional+Japanese+Village)/@35.5050066,138.6589023,17z/data=!3m1!4b1!4m6!3m5!1s0x601be1142cbd0f3f:0xe38f690fd5eaebe7!8m2!3d35.5050023!4d138.6614772!16s%2Fg%2F1224bt0l?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Фудзикавагутико",
         "name": "Oshino hakkai",
         "price": 0.0,
         "comment": null,
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/Oshino+hakkai/@35.4600718,138.8298992,17z/data=!3m1!4b1!4m6!3m5!1s0x601966859f99842b:0x163aa46bb0af9f71!8m2!3d35.4600675!4d138.8324741!16s%2Fg%2F121dpnbt?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Токио",
         "name": "Ghibli Museam",
         "price": 6.58,
         "comment": "Если в парк не сможем попасть, будет запасным вариантом",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%93%D0%B8%D0%B1%D0%BB%D0%B8/@35.6962423,139.5678568,17z/data=!3m2!4b1!5s0x6018ee34ef3b3c69:0x5694d16b01f4ecd8!4m6!3m5!1s0x6018ee34e5038c2d:0x4de155903f849205!8m2!3d35.696238!4d139.5704317!16zL20vMDY5MDY0?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Токио",
         "name": "Yanaka Ginza",
         "price": 0.0,
         "comment": "Традиционная торговая улица, которая приобрела свой нынешний вид в 1950-е годы. Здесь много магазинов с посудой",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Yanaka+Ginza/@35.7276924,139.7655365,17z/data=!4m15!1m8!3m7!1s0x60188dd19c058c3d:0xef3d1026c2974760!2sYanaka+Ginza!8m2!3d35.7276934!4d139.7657232!10e1!16s%2Fg%2F11btv67788!3m5!1s0x60188dd19c058c3d:0xef3d1026c2974760!8m2!3d35.7276934!4d139.7657232!16s%2Fg%2F11btv67788?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Токио",
         "name": "Gōtokuji Temple",
         "price": 0.0,
         "comment": "Храм кошек",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/G%C5%8Dtokuji+Temple/@35.6488167,139.6449061,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f39f99015555:0x6b0e9ad51be4cac!8m2!3d35.6488124!4d139.647481!16s%2Fg%2F122r_g9j?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Токио",
         "name": "Katsushika Noryo Fireworks Festival 2026, July 22 (19:20)",
         "price": 0.0,
         "comment": "Можно успеть на летнее шоу",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://jasumo.com/listing/katsushika-noryo-fireworks-festival/"
       },
       {
         "city": "Токио",
         "name": "Lantern Festival at Chidorigafuchi 2026 (July 24-25)",
         "price": 0.0,
         "comment": null,
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://en.japantravel.com/tokyo/lantern-festival-at-chidorigafuchi/69082"
       },
       {
         "city": "Токио",
         "name": "Tokyo Metropolitan Government Building North Observation Deck",
         "price": 0.0,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Tokyo+Metropolitan+Government+Building+North+Observation+Deck/@35.689485,139.6891114,17z/am=t/data=!3m1!5s0x60188cd498eb5371:0x46cb7b987c5bc5b7!4m14!1m7!3m6!1s0x60188cd4b71a37a1:0xf1665c37f38661e8!2z0JzRjdGA0LjRjyDQotC-0LrQuNC-!8m2!3d35.6894807!4d139.6916863!16zL20vMDNrNzh3!3m5!1s0x60188cd4c86bcb9d:0xe5b1c573920cfe2e!8m2!3d35.689733!4d139.6916563!16s%2Fg%2F1tgz5gx6?entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Токио",
         "name": "Kagurazaka Matsuri Japanese Lantern Plant Market and Awa-odori Dance Festival (July 23-26)",
         "price": 0.0,
         "comment": "Фестивать с танцеми, ближек дате будет больше инфы",
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": null
       },
       {
         "city": "Токио",
         "name": "Shimokita Senrogai Open Space",
         "price": null,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Shimokita+Senrogai+Open+Space/@35.6630002,139.6668434,17z/data=!3m1!4b1!4m6!3m5!1s0x6018f36310b20831:0xcae55718db8e6de4!8m2!3d35.6629959!4d139.6694183!16s%2Fg%2F11fnqvlx64?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Токио",
         "name": "Mount Takao (1 day trip)",
         "price": null,
         "comment": "Если тебе мало активности и природы, то можно на 1 день проехать и поизучать новые места. Это можно будет решить уже после подъема на Фудзи, будем отталкиваться от твоих сил",
-        "status": "Not sure"
+        "status": "Not sure",
+        "site": null
       },
       {
         "city": "Токио",
         "name": "Nikko (1 day trip)",
         "price": null,
         "comment": null,
-        "status": null
+        "status": null,
+        "site": null
       },
       {
         "city": "Токио",
         "name": "Yokohama (1 day trip)",
         "price": null,
         "comment": null,
-        "status": null
+        "status": null,
+        "site": null
       },
       {
         "city": "Чиба",
         "name": "JFA YUME Field Makuhari Onsen Yura no Sato",
         "price": 0.0,
         "comment": "Классный онсен  с видом на пляж и океан",
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "mailto:google.com/maps/place/JFA+YUME+Field+Makuhari+Onsen+Yura+no+Sato/@35.6083636,140.119353,14.82z/data=!4m6!3m5!1s0x60228308478d356d:0xed32a9a28edb09b0!8m2!3d35.6359603!4d140.0396723!16s%2Fg%2F11j5zhdt_b?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Чиба",
         "name": "Chiba Shrine Myōken Hongū",
         "price": null,
         "comment": null,
-        "status": "Think about it"
+        "status": "Think about it",
+        "site": "https://www.google.com/maps/place/Chiba+Shrine+My%C5%8Dken+Hong%C5%AB/@35.6083636,140.119353,14.82z/data=!4m6!3m5!1s0x60229b34509343f3:0x9730d95bc35cfbf9!8m2!3d35.6119241!4d140.1238261!16s%2Fg%2F120sp_81?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       },
       {
         "city": "Чиба",
         "name": "Chiba Urban Monorail",
         "price": null,
         "comment": null,
-        "status": "Must visit"
+        "status": "Must visit",
+        "site": "https://www.google.com/maps/place/Chiba+Urban+Monorail+Co.,+Ltd./@35.642256,140.1252395,17.73z/data=!4m6!3m5!1s0x602284f155517acf:0x6799258d2b7dfb92!8m2!3d35.6409411!4d140.1266826!16s%2Fg%2F1tg3b6lr?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D"
       }
     ],
     "hotels": [

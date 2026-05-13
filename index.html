@@ -815,6 +815,8 @@ ul, ol { list-style: none; }
   flex-direction: column;
 }
 .hotel:hover { transform: translateY(-2px); border-color: var(--ink-3); }
+.hotel.is-alt { border-style: dashed; opacity: 0.92; }
+.hotel.is-alt .hotel__city { color: var(--gold); }
 .hotel__city {
   font-size: var(--t-xs);
   letter-spacing: 0.22em;
@@ -1519,7 +1521,7 @@ ul, ol { list-style: none; }
         }
 
         const nameHtml = ev.site && ev.site.startsWith('http')
-          ? `<a href="${ev.site}" target="_blank" rel="noopener">${ev.name}</a>`
+          ? `<a href="${ev.site}" target="_blank" rel="noopener"${ev.site_label ? ` title="${ev.site_label.replace(/"/g,'&quot;')}"` : ''}>${ev.name}</a>`
           : (ev.map ? `<a href="${ev.map}" target="_blank" rel="noopener">${ev.name}</a>` : ev.name);
 
         return `
@@ -1552,19 +1554,22 @@ ul, ol { list-style: none; }
     const g = $('#hotelsGrid');
     g.innerHTML = '';
     t.hotels.forEach(h => {
-      const city = (h.city_range || '').replace(/\s*с\s.+$/, '').trim() || h.city_range || '';
-      const range = (h.city_range || '').match(/(?:с|по).+/) ? h.city_range : (h.city_range || '');
+      const range = h.city_range || '';
+      const priceBlock = h.price != null
+        ? `<div class="hotel__price"><span>$${h.price}</span><span class="ccy">USD</span><span class="per">за весь срок</span></div>`
+        : `<div class="hotel__price" style="font-size:var(--t-lg)"><span style="font-style:normal;color:var(--ink-3);font-size:0.85em;letter-spacing:0.04em;">альтернатива · цена на Booking</span></div>`;
+      const meta = [];
+      if (h.room) meta.push(h.room);
+      if (h.district) meta.push(h.district);
+      if (h.meal && h.meal !== '-') meta.push(h.meal);
+      if (h.is_alt) meta.push('запасной вариант');
       g.insertAdjacentHTML('beforeend', `
-        <article class="hotel">
-          <p class="hotel__city">${range}</p>
+        <article class="hotel${h.is_alt ? ' is-alt' : ''}">
+          <p class="hotel__city">${range}${h.is_alt ? ' · альтернатива' : ''}</p>
           <h3 class="hotel__name">${h.name}</h3>
-          ${h.room ? `<div class="hotel__meta"><span>${h.room}</span>${h.district ? `<span>${h.district}</span>` : ''}${h.meal && h.meal !== '-' ? `<span>${h.meal}</span>` : ''}</div>` : ''}
+          ${meta.length ? `<div class="hotel__meta">${meta.map(m=>`<span>${m}</span>`).join('')}</div>` : ''}
           ${h.note ? `<p class="hotel__note">${h.note}</p>` : ''}
-          <div class="hotel__price">
-            <span>$${h.price}</span>
-            <span class="ccy">USD</span>
-            <span class="per">за весь срок</span>
-          </div>
+          ${priceBlock}
           ${h.link ? `<a class="hotel__link" href="${h.link}" target="_blank" rel="noopener">Открыть на Booking →</a>` : (h.link_text ? `<span class="hotel__link" style="border:0;color:var(--ink-3)">${h.link_text}</span>` : '')}
         </article>
       `);
@@ -1593,9 +1598,12 @@ ul, ol { list-style: none; }
         const priceStr = a.price != null && a.price !== 0
           ? '$' + a.price.toFixed(2)
           : (a.price === 0 ? 'бесплатно' : '');
+        const nameHtml = a.site
+          ? `<a href="${a.site}" target="_blank" rel="noopener">${a.name}</a>`
+          : a.name;
         return `
           <li class="att-item" data-status="${a.status || ''}">
-            <span class="att-item__name">${a.name}</span>
+            <span class="att-item__name">${nameHtml}</span>
             ${priceStr ? `<span class="att-item__price">${priceStr}</span>` : '<span></span>'}
             ${a.comment ? `<p class="att-item__comment">${a.comment}</p>` : ''}
             ${st ? `<span class="att-item__status ${st.cls}"><span class="dot"></span>${st.ru}</span>` : ''}

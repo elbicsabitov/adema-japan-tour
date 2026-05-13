@@ -54,100 +54,134 @@ def get_rows(path, sheet):
     return list(ws.iter_rows(values_only=True))
 
 
+# Cache for hyperlink-aware sheets — returns dict {(row, col): (display, hyperlink_target)}
+_HL_CACHE = {}
+
+
+def get_hyperlinks(path, sheet):
+    """Return mapping of (row_idx, col_idx) → hyperlink.target string. 1-based indices."""
+    key = (path, sheet)
+    if key in _HL_CACHE:
+        return _HL_CACHE[key]
+    wb = openpyxl.load_workbook(path, data_only=False)
+    ws = wb[sheet]
+    out = {}
+    for row in ws.iter_rows():
+        for cell in row:
+            if cell.hyperlink and cell.hyperlink.target:
+                out[(cell.row, cell.column)] = cell.hyperlink.target
+    _HL_CACHE[key] = out
+    return out
+
+
+def url_or_display(path, sheet, row_idx, col_idx, display_value):
+    """Return hyperlink target if exists; else display_value if it looks like URL; else None."""
+    hl = get_hyperlinks(path, sheet)
+    target = hl.get((row_idx, col_idx))
+    if target:
+        return target
+    if isinstance(display_value, str) and display_value.startswith("http"):
+        return display_value
+    return None
+
+
 def parse_march():
     rows = get_rows(MARCH, "Программа")
     days = []
     cur_day = None
     current_date = None
-    for r in rows[1:]:  # skip header
-        r = [clean(c) for c in r]
-        # columns: [_, Date, Schedule, Time, Map, TransportCost, TransportTime, TransportType, Hours, Ticket, SiteLink, _]
-        if not r or len(r) < 11:
+    # row index in iter_rows is 1-based for openpyxl cells (row 1 = first row)
+    for idx, r in enumerate(rows[1:], start=2):  # start=2 because we skipped row 1 header
+        cleaned = [clean(c) for c in r]
+        if not cleaned or len(cleaned) < 11:
             continue
-        date_val = r[1] if len(r) > 1 else None
-        schedule = r[2] if len(r) > 2 else None
-        time_val = parse_excel_time(r[3] if len(r) > 3 else None)
-        map_link = r[4] if len(r) > 4 else None
-        t_cost = num(r[5] if len(r) > 5 else None)
-        t_time = r[6] if len(r) > 6 else None
-        t_type = r[7] if len(r) > 7 else None
-        hours = r[8] if len(r) > 8 else None
-        ticket = num(r[9] if len(r) > 9 else None)
-        site = r[10] if len(r) > 10 else None
+        date_val = cleaned[1] if len(cleaned) > 1 else None
+        schedule = cleaned[2] if len(cleaned) > 2 else None
+        time_val = parse_excel_time(cleaned[3] if len(cleaned) > 3 else None)
+        map_display = cleaned[4] if len(cleaned) > 4 else None
+        t_cost = num(cleaned[5] if len(cleaned) > 5 else None)
+        t_time = cleaned[6] if len(cleaned) > 6 else None
+        t_type = cleaned[7] if len(cleaned) > 7 else None
+        hours = cleaned[8] if len(cleaned) > 8 else None
+        ticket = num(cleaned[9] if len(cleaned) > 9 else None)
+        site_display = cleaned[10] if len(cleaned) > 10 else None
 
-        # detect day header (has date but other fields might still be there)
-        if date_val and "Марта" in date_val or date_val and "Апреля" in date_val:
-            current_date = date_val
-            cur_day = {"date": current_date, "events": []}
-            days.append(cur_day)
-            # If this row also has a schedule event, add it
-            if schedule:
-                cur_day["events"].append({
-                    "name": schedule,
-                    "time": time_val,
-                    "map": map_link if map_link and (map_link.startswith("http") or "Открыть" in map_link or "откуда" in map_link) else None,
-                    "transport_cost": t_cost,
-                    "transport_time": t_time,
-                    "transport_type": t_type,
-                    "hours": hours,
-                    "ticket": ticket,
-                    "site": site,
-                })
-        elif date_val and ("28.03 бронь" in date_val or "На месте" in date_val or "17:00-17:30" in date_val or "Аниме место" in date_val):
-            # special annotation on row; treat as note for current event
-            if cur_day and schedule:
-                cur_day["events"].append({
-                    "name": schedule,
-                    "time": time_val,
-                    "tag": date_val,
-                    "map": map_link if map_link and (map_link.startswith("http") or "Открыть" in map_link or "откуда" in map_link) else None,
-                    "transport_cost": t_cost,
-                    "transport_time": t_time,
-                    "transport_type": t_type,
-                    "hours": hours,
-                    "ticket": ticket,
-                    "site": site,
-                })
-        elif schedule and cur_day is not None:
-            cur_day["events"].append({
-                "name": schedule,
+        # Extract real URLs via hyperlinks
+        map_url = url_or_display(MARCH, "Программа", idx, 5, map_display)  # col E=5
+        site_url = url_or_display(MARCH, "Программа", idx, 11, site_display)  # col K=11
+
+        def mk_event(name, **extra):
+            return {
+                "name": name,
                 "time": time_val,
-                "map": map_link if map_link and (map_link.startswith("http") or "Открыть" in map_link or "откуда" in map_link) else None,
+                "map": map_url,
                 "transport_cost": t_cost,
                 "transport_time": t_time,
                 "transport_type": t_type,
                 "hours": hours,
                 "ticket": ticket,
-                "site": site,
-            })
+                "site": site_url,
+                "site_label": site_display if site_display and not (isinstance(site_display, str) and site_display.startswith("http")) else None,
+                **extra,
+            }
+
+        if date_val and ("Марта" in date_val or "Апреля" in date_val):
+            current_date = date_val
+            cur_day = {"date": current_date, "events": []}
+            days.append(cur_day)
+            if schedule:
+                cur_day["events"].append(mk_event(schedule))
+        elif date_val and ("28.03 бронь" in date_val or "На месте" in date_val or "17:00-17:30" in date_val or "Аниме место" in date_val):
+            if cur_day and schedule:
+                cur_day["events"].append(mk_event(schedule, tag=date_val))
+        elif schedule and cur_day is not None:
+            cur_day["events"].append(mk_event(schedule))
 
     # hotels
     hotel_rows = get_rows(MARCH, "Отели")
     hotels = []
     cur_hotel_section = None
-    for r in hotel_rows:
-        r = [clean(c) for c in r]
-        if not r:
+    for idx, r in enumerate(hotel_rows, start=1):
+        cleaned = [clean(c) for c in r]
+        if not cleaned:
             continue
-        first = r[1] if len(r) > 1 else None
-        second = r[2] if len(r) > 2 else None
-        third = r[3] if len(r) > 3 else None
-        fourth = r[4] if len(r) > 4 else None
+        first = cleaned[1] if len(cleaned) > 1 else None
+        second_display = cleaned[2] if len(cleaned) > 2 else None
+        third = cleaned[3] if len(cleaned) > 3 else None
+        fourth = cleaned[4] if len(cleaned) > 4 else None
         # Section header detection
         if first and ("с " in first and ("марта" in first or "апреля" in first)):
             cur_hotel_section = first
             continue
         if first == "Отель":
-            continue  # header within section
-        # Hotel entry: name, link, price, питание
-        if first and second and third and "Стоимость" not in first:
+            continue
+        # Extract real booking URL
+        booking_url = url_or_display(MARCH, "Отели", idx, 3, second_display)
+        # Hotel entry (main) — name + link + price + meal
+        if first and third and "Стоимость" not in first:
             hotels.append({
                 "city_range": cur_hotel_section,
                 "name": first,
-                "link_text": second,
+                "link": booking_url,
+                "link_text": second_display if second_display and not (isinstance(second_display, str) and second_display.startswith("http")) else None,
                 "price": num(third),
                 "meal": fourth,
-                "note": r[5] if len(r) > 5 else None,
+                "note": cleaned[5] if len(cleaned) > 5 else None,
+            })
+        # Alternative hotel — only URL (no name) — append as alt for current section
+        elif not first and booking_url and cur_hotel_section:
+            # Extract a friendly name from URL path
+            import urllib.parse
+            try:
+                path_seg = urllib.parse.urlparse(booking_url).path.split("/")[-1].replace(".html", "").replace(".ru", "")
+                friendly = path_seg.replace("-", " ").title()
+            except Exception:
+                friendly = "Альтернативный отель"
+            hotels.append({
+                "city_range": cur_hotel_section,
+                "name": friendly,
+                "link": booking_url,
+                "is_alt": True,
             })
 
     return {
@@ -222,7 +256,7 @@ def parse_july():
     attractions = []
     cur_section = None
     CITY_NAMES = ("Удзи", "Киото", "Такасима", "Хиконе", "Нагоя", "Сидзуока", "Фудзикавагутико", "Токио", "Чиба")
-    for r in att_rows:
+    for r_idx, r in enumerate(att_rows, start=1):
         r = [clean(c) for c in r]
         if not r:
             continue
@@ -238,12 +272,20 @@ def parse_july():
         if first in ("Цена", "Комментарий", "Статус"):
             continue
         if first and first != "Total":
+            # Find hyperlink in this row (any column 1-6) for attraction site
+            att_url = None
+            hl = get_hyperlinks(JULY, "Attractions")
+            for c in range(1, 7):
+                if (r_idx, c) in hl:
+                    att_url = hl[(r_idx, c)]
+                    break
             attractions.append({
                 "city": cur_section,
                 "name": first,
                 "price": price,
                 "comment": comment,
                 "status": status,
+                "site": att_url,
             })
 
     # hotels
